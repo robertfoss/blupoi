@@ -1,0 +1,230 @@
+EESchema Schematic File Version 2
+LIBS:blupoi-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:antenna
+LIBS:crystal_small_smd
+LIBS:nrf52832
+LIBS:bno055
+LIBS:ics43432
+LIBS:tps63001
+LIBS:vusb
+LIBS:vin
+LIBS:apa102
+LIBS:fdn340p
+LIBS:vbat
+LIBS:mcp73831
+LIBS:cp2102-gmr
+LIBS:nuf2221
+LIBS:bq24075
+LIBS:max16054
+LIBS:micro_b_usb
+LIBS:blupoi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP2102-GMR U7
+U 1 1 57A3E7DF
+P 5400 3850
+F 0 "U7" H 6241 3896 50  0000 L CNN
+F 1 "CP2102-GMR" H 6241 3805 50  0000 L CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 5050 3900 50  0001 L CNN
+F 3 "" H 5400 3850 60  0001 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 57A3E7FF
+P 5000 2950
+F 0 "#PWR017" H 5000 2700 50  0001 C CNN
+F 1 "GND" H 5005 2777 50  0000 C CNN
+F 2 "" H 5000 2950 50  0000 C CNN
+F 3 "" H 5000 2950 50  0000 C CNN
+	1    5000 2950
+	-1   0    0    1   
+$EndComp
+Text HLabel 5300 2950 1    60   Output ~ 0
+RX
+Text HLabel 5400 2650 1    60   Input ~ 0
+TX
+$Comp
+L R_Small R7
+U 1 1 57A3E829
+P 5400 2850
+F 0 "R7" H 5459 2896 50  0000 L CNN
+F 1 "470" H 5459 2805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5400 2850 50  0001 C CNN
+F 3 "" H 5400 2850 50  0000 C CNN
+	1    5400 2850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4500 3850 0    60   Input ~ 0
+USB_D+
+Text HLabel 4500 3950 0    60   Input ~ 0
+USB_D-
+$Comp
+L GND #PWR018
+U 1 1 57A3E8C8
+P 4500 3750
+F 0 "#PWR018" H 4500 3500 50  0001 C CNN
+F 1 "GND" V 4505 3622 50  0000 R CNN
+F 2 "" H 4500 3750 50  0000 C CNN
+F 3 "" H 4500 3750 50  0000 C CNN
+	1    4500 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C22
+U 1 1 57A3EC12
+P 4500 4250
+F 0 "C22" H 4550 4300 50  0000 L CNN
+F 1 "100nF" H 4550 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4500 4250 50  0001 C CNN
+F 3 "" H 4500 4250 50  0000 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C21
+U 1 1 57A3EC64
+P 4250 4250
+F 0 "C21" H 4300 4300 50  0000 L CNN
+F 1 "1uF" H 4300 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4250 4250 50  0001 C CNN
+F 3 "" H 4250 4250 50  0000 C CNN
+	1    4250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3050 5000 2950
+Wire Wire Line
+	5400 2650 5400 2750
+Wire Wire Line
+	5400 2950 5400 3050
+Wire Wire Line
+	5300 3050 5300 2950
+Wire Wire Line
+	4500 3850 4600 3850
+Wire Wire Line
+	4600 3950 4500 3950
+Wire Wire Line
+	4500 3750 4600 3750
+Wire Wire Line
+	4150 4050 4600 4050
+Wire Wire Line
+	4500 4150 4500 4050
+Wire Wire Line
+	4250 4050 4250 4150
+Connection ~ 4500 4050
+Wire Wire Line
+	4250 4350 4250 4450
+Wire Wire Line
+	4250 4450 4500 4450
+Wire Wire Line
+	4500 4350 4500 4550
+$Comp
+L GND #PWR019
+U 1 1 57A3ED8E
+P 4500 4550
+F 0 "#PWR019" H 4500 4300 50  0001 C CNN
+F 1 "GND" H 4505 4377 50  0000 C CNN
+F 2 "" H 4500 4550 50  0000 C CNN
+F 3 "" H 4500 4550 50  0000 C CNN
+	1    4500 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 4450
+Text HLabel 4150 4050 0    60   Input ~ 0
+V3.3
+Connection ~ 4250 4050
+$Comp
+L C_Small C23
+U 1 1 57A3EDEA
+P 4900 4750
+F 0 "C23" V 4850 4600 50  0000 C CNN
+F 1 "100nF" V 4850 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4900 4750 50  0001 C CNN
+F 3 "" H 4900 4750 50  0000 C CNN
+	1    4900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C24
+U 1 1 57A3EE2C
+P 4900 4950
+F 0 "C24" V 4850 4800 50  0000 C CNN
+F 1 "1uF" V 4850 5100 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4900 4950 50  0001 C CNN
+F 3 "" H 4900 4950 50  0000 C CNN
+	1    4900 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 4650 5100 5050
+Wire Wire Line
+	5100 4750 5000 4750
+Wire Wire Line
+	5100 4950 5000 4950
+Connection ~ 5100 4750
+Wire Wire Line
+	4800 4750 4700 4750
+Wire Wire Line
+	4700 4750 4700 5050
+Wire Wire Line
+	4700 4950 4800 4950
+$Comp
+L GND #PWR020
+U 1 1 57A3EEBB
+P 4700 5050
+F 0 "#PWR020" H 4700 4800 50  0001 C CNN
+F 1 "GND" H 4705 4877 50  0000 C CNN
+F 2 "" H 4700 5050 50  0000 C CNN
+F 3 "" H 4700 5050 50  0000 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 4950
+Text HLabel 5100 5050 3    60   Input ~ 0
+VUSB
+Connection ~ 5100 4950
+$EndSCHEMATC
