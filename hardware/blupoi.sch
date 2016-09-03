@@ -730,8 +730,6 @@ F8 "PM_!GOOD" O R 1400 1400 60
 F9 "PM_!CHG" O R 1400 1500 60 
 F10 "PM_SWITCH" I R 1400 1600 60 
 $EndSheet
-Text Label 1500 1100 0    60   ~ 0
-PM_ISET
 Text GLabel 1500 1100 2    60   Input ~ 0
 PM_ISET
 Wire Wire Line
@@ -851,4 +849,30 @@ Text GLabel 6000 6500 2    60   Input ~ 0
 RESET
 Wire Wire Line
 	6000 6500 5900 6500
+Text GLabel 6800 2600 2    60   Input ~ 0
+PM_ISET
+Text GLabel 6800 2700 2    60   Input ~ 0
+PM_EN1
+Text GLabel 6800 2800 2    60   Input ~ 0
+PM_EN2
+Text GLabel 6800 2900 2    60   Input ~ 0
+PM_!GOOD
+Text GLabel 6800 3000 2    60   Input ~ 0
+PM_!CHG
+Text GLabel 6800 3100 2    60   Input ~ 0
+PM_SWITCH
+Text Label 7750 3500 0    60   ~ 0
+PM_ISET
+Wire Wire Line
+	6800 3100 6700 3100
+Wire Wire Line
+	6700 3000 6800 3000
+Wire Wire Line
+	6800 2900 6700 2900
+Wire Wire Line
+	6700 2800 6800 2800
+Wire Wire Line
+	6800 2700 6700 2700
+Wire Wire Line
+	6700 2600 6800 2600
 $EndSCHEMATC
