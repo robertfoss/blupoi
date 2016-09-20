@@ -7262,10 +7262,10 @@
     )
   )
 
-  (module 16650_holder:16650_in_pcb_socket (layer F.Cu) (tedit 57A50EF9) (tstamp 579E3B65)
+  (module 16650_holder:16650_in_pcb_socket (layer F.Cu) (tedit 57E0BB3F) (tstamp 579E3B65)
     (at 396.208 102.299)
     (path /57B9A02C/579AD18C)
-    (fp_text reference BT1 (at 0 -1.905) (layer F.SilkS)
+    (fp_text reference BAT (at -0.008 -1.299) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Battery (at 0 -0.762) (layer F.Fab)
