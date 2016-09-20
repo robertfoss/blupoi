@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -681,38 +681,6 @@ Wire Notes Line
 	8950 2400 11200 2400
 Text Notes 9700 750  0    60   ~ 0
 USB Connector
-$Sheet
-S 550  6800 850  850 
-U 57A3E76A
-F0 "cp2102" 60
-F1 "cp2102.sch" 60
-F2 "RX" O R 1400 7100 60 
-F3 "TX" I R 1400 7200 60 
-F4 "USB_D+" I R 1400 7400 60 
-F5 "USB_D-" I R 1400 7500 60 
-F6 "V3.3" I R 1400 6900 60 
-F7 "VUSB" I R 1400 7000 60 
-$EndSheet
-Text GLabel 1500 6900 2    60   Input ~ 0
-V3.3
-Wire Wire Line
-	1500 6900 1400 6900
-Text GLabel 1500 7100 2    60   Input ~ 0
-RX
-Wire Wire Line
-	1500 7100 1400 7100
-Text GLabel 1500 7200 2    60   Input ~ 0
-TX
-Wire Wire Line
-	1500 7200 1400 7200
-Text GLabel 1500 7400 2    60   Input ~ 0
-USB_D+
-Wire Wire Line
-	1500 7400 1400 7400
-Text GLabel 1500 7500 2    60   Input ~ 0
-USB_D-
-Wire Wire Line
-	1500 7500 1400 7500
 Wire Wire Line
 	1400 800  1500 800 
 $Sheet
@@ -775,10 +743,6 @@ Wire Wire Line
 	10250 1500 10350 1500
 Wire Wire Line
 	10350 1600 10250 1600
-Text GLabel 1500 7000 2    60   Input ~ 0
-VUSB
-Wire Wire Line
-	1500 7000 1400 7000
 Text GLabel 6800 1500 2    60   Input ~ 0
 RX
 Text GLabel 6800 1600 2    60   Input ~ 0
@@ -801,7 +765,7 @@ U 1 1 57C8F003
 P 5650 6300
 F 0 "P2" H 5650 6715 50  0000 C CNN
 F 1 "CONN_02X05" H 5650 6624 50  0000 C CNN
-F 2 "" H 5650 5100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5650 5100 50  0001 C CNN
 F 3 "" H 5650 5100 50  0000 C CNN
 	1    5650 6300
 	1    0    0    -1  
@@ -875,4 +839,27 @@ Wire Wire Line
 	6800 2700 6700 2700
 Wire Wire Line
 	6700 2600 6800 2600
+$Comp
+L CONN_01X03 P3
+U 1 1 57E0BFF4
+P 7650 5800
+F 0 "P3" H 7727 5841 50  0000 L CNN
+F 1 "SERIAL" H 7727 5750 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7650 5800 50  0001 C CNN
+F 3 "" H 7650 5800 50  0000 C CNN
+	1    7650 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 5900 0    60   Input ~ 0
+GND
+Wire Wire Line
+	7350 5900 7450 5900
+Text GLabel 7350 5800 0    60   Input ~ 0
+TX
+Text GLabel 7350 5700 0    60   Input ~ 0
+RX
+Wire Wire Line
+	7350 5700 7450 5700
+Wire Wire Line
+	7450 5800 7350 5800
 $EndSCHEMATC
