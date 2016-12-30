@@ -1,0 +1,1205 @@
+** Drc report for /home/hottuna/projects/blupoi/hardware/blupoi.kicad_pcb **
+** Created on 2016-10-01 17:39:32 **
+
+** Found 403 DRC errors **
+ErrType(4): Track near pad
+    @ (-36.375 mm,120.550 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 2.075 mm
+    @ (-35.400 mm,120.200 mm): Pad 1 on F.Cu, Non-copper of ANT1
+ErrType(4): Track near pad
+    @ (344.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (344.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_74
+ErrType(7): Via near track
+    @ (-42.200 mm,120.500 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer B.Cu, length: 5.400 mm
+    @ (-47.000 mm,119.700 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (-48.800 mm,119.700 mm): Track 0.200 mm, net [GND] (2) on layer F.Cu, length: 2.828 mm
+    @ (-51.200 mm,117.866 mm): Track 0.200 mm, net [Net-(C3-Pad1)] (134) on layer F.Cu, length: 3.866 mm
+ErrType(4): Track near pad
+    @ (-50.800 mm,117.700 mm): Track 0.200 mm, net [GND] (2) on layer F.Cu, length: 4.300 mm
+    @ (-50.400 mm,113.400 mm): Pad 32 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-10.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (-10.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_7
+ErrType(4): Track near pad
+    @ (-4.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (-4.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_8
+ErrType(4): Track near pad
+    @ (0.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (0.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_9
+ErrType(4): Track near pad
+    @ (5.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (5.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_10
+ErrType(4): Track near pad
+    @ (11.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (11.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_11
+ErrType(4): Track near pad
+    @ (16.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (16.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_12
+ErrType(4): Track near pad
+    @ (21.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (21.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_13
+ErrType(4): Track near pad
+    @ (26.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (26.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_14
+ErrType(4): Track near pad
+    @ (32.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (32.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_15
+ErrType(4): Track near pad
+    @ (37.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (37.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_16
+ErrType(4): Track near pad
+    @ (42.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (42.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_17
+ErrType(4): Track near pad
+    @ (48.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (48.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_18
+ErrType(4): Track near pad
+    @ (53.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (53.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_19
+ErrType(4): Track near pad
+    @ (58.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (58.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_20
+ErrType(4): Track near pad
+    @ (64.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (64.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_21
+ErrType(4): Track near pad
+    @ (69.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (69.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_22
+ErrType(4): Track near pad
+    @ (74.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (74.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_23
+ErrType(4): Track near pad
+    @ (79.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (79.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_24
+ErrType(4): Track near pad
+    @ (85.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (85.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_25
+ErrType(4): Track near pad
+    @ (90.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (90.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_26
+ErrType(4): Track near pad
+    @ (95.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (95.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_27
+ErrType(4): Track near pad
+    @ (101.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (101.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_28
+ErrType(4): Track near pad
+    @ (106.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (106.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_29
+ErrType(4): Track near pad
+    @ (111.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (111.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_30
+ErrType(4): Track near pad
+    @ (117.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (117.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_31
+ErrType(4): Track near pad
+    @ (122.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (122.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_32
+ErrType(4): Track near pad
+    @ (127.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (127.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_33
+ErrType(4): Track near pad
+    @ (132.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (132.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_34
+ErrType(4): Track near pad
+    @ (138.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (138.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_35
+ErrType(4): Track near pad
+    @ (143.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (143.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_36
+ErrType(4): Track near pad
+    @ (148.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (148.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_37
+ErrType(4): Track near pad
+    @ (154.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (154.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_38
+ErrType(4): Track near pad
+    @ (159.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (159.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_39
+ErrType(4): Track near pad
+    @ (164.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (164.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_40
+ErrType(4): Track near pad
+    @ (170.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (170.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_41
+ErrType(4): Track near pad
+    @ (175.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (175.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_42
+ErrType(4): Track near pad
+    @ (196.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (196.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_46
+ErrType(4): Track near pad
+    @ (201.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (201.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_47
+ErrType(4): Track near pad
+    @ (207.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (207.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_48
+ErrType(4): Track near pad
+    @ (212.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (212.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_49
+ErrType(4): Track near pad
+    @ (217.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (217.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_50
+ErrType(4): Track near pad
+    @ (223.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (223.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_51
+ErrType(4): Track near pad
+    @ (228.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (228.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_52
+ErrType(4): Track near pad
+    @ (233.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (233.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_53
+ErrType(4): Track near pad
+    @ (238.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (238.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_54
+ErrType(4): Track near pad
+    @ (244.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (244.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_55
+ErrType(4): Track near pad
+    @ (249.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (249.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_56
+ErrType(4): Track near pad
+    @ (254.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (254.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_57
+ErrType(4): Track near pad
+    @ (260.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (260.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_58
+ErrType(4): Track near pad
+    @ (265.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (265.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_59
+ErrType(4): Track near pad
+    @ (270.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (270.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_60
+ErrType(4): Track near pad
+    @ (276.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (276.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_61
+ErrType(4): Track near pad
+    @ (281.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (281.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_62
+ErrType(4): Track near pad
+    @ (286.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (286.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_63
+ErrType(4): Track near pad
+    @ (291.900 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (291.900 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_64
+ErrType(4): Track near pad
+    @ (297.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (297.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_65
+ErrType(4): Track near pad
+    @ (302.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (302.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_66
+ErrType(4): Track near pad
+    @ (307.800 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (307.800 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_67
+ErrType(4): Track near pad
+    @ (313.100 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (313.100 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_68
+ErrType(4): Track near pad
+    @ (318.400 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (318.400 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_69
+ErrType(4): Track near pad
+    @ (323.700 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (323.700 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_70
+ErrType(4): Track near pad
+    @ (329.000 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (329.000 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_71
+ErrType(4): Track near pad
+    @ (334.300 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (334.300 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_72
+ErrType(4): Track near pad
+    @ (-40.100 mm,114.400 mm): Via 0.600 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (-40.100 mm,112.900 mm): Pad 1 on F.Cu, Non-copper of LED0_2
+ErrType(16): Two track ends too close
+    @ (-37.700 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.700 mm
+    @ (-40.600 mm,117.200 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 3.253 mm
+ErrType(16): Two track ends too close
+    @ (-16.550 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 5.650 mm
+    @ (-17.239 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 0.442 mm
+ErrType(18): Two track ends too close
+    @ (-20.800 mm,113.350 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.485 mm
+    @ (-38.300 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 21.061 mm
+ErrType(18): Two track ends too close
+    @ (-26.100 mm,113.350 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.485 mm
+    @ (-38.300 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 21.061 mm
+ErrType(18): Two track ends too close
+    @ (-31.400 mm,112.994 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.989 mm
+    @ (-38.300 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 21.061 mm
+ErrType(18): Two track ends too close
+    @ (-36.700 mm,113.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.414 mm
+    @ (-38.300 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 21.061 mm
+ErrType(4): Track near pad
+    @ (180.600 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (180.600 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_43
+ErrType(4): Track near pad
+    @ (350.200 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (350.200 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_75
+ErrType(4): Track near pad
+    @ (355.500 mm,114.600 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+    @ (355.500 mm,112.900 mm): Pad 1 on B.Cu, Non-copper of LED1_76
+ErrType(4): Track near pad
+    @ (344.350 mm,104.375 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.680 mm
+    @ (343.850 mm,104.375 mm): Pad 7 on F.Cu, Non-copper of U5
+ErrType(7): Via near track
+    @ (335.300 mm,103.600 mm): Track 0.250 mm, net [VBAT] (327) on layer F.Cu, length: 2.000 mm
+    @ (336.100 mm,104.300 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (310.550 mm,109.250 mm): Track 0.200 mm, net [GND] (2) on layer B.Cu, length: 3.800 mm
+    @ (311.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_68
+ErrType(4): Track near pad
+    @ (315.850 mm,109.150 mm): Track 0.200 mm, net [GND] (2) on layer B.Cu, length: 3.700 mm
+    @ (316.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_69
+ErrType(4): Track near pad
+    @ (321.150 mm,109.250 mm): Track 0.200 mm, net [GND] (2) on layer B.Cu, length: 3.800 mm
+    @ (322.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_70
+ErrType(4): Track near pad
+    @ (326.450 mm,109.150 mm): Track 0.200 mm, net [GND] (2) on layer B.Cu, length: 3.700 mm
+    @ (327.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_71
+ErrType(7): Via near track
+    @ (355.500 mm,100.000 mm): Track 0.850 mm, net [VUSB] (329) on layer F.Cu, length: 9.100 mm
+    @ (354.100 mm,101.100 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(7): Via near track
+    @ (181.600 mm,116.600 mm): Track 0.450 mm, net [V3.3] (328) on layer B.Cu, length: 141.325 mm
+    @ (44.700 mm,115.700 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (-50.800 mm,113.400 mm): Track 0.200 mm, net [GND] (2) on layer F.Cu, length: 0.975 mm
+    @ (-50.400 mm,113.400 mm): Pad 32 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-48.000 mm,109.400 mm): Track 0.200 mm, net [GND] (2) on layer F.Cu, length: 0.887 mm
+    @ (-48.000 mm,109.800 mm): Pad 44 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-44.500 mm,117.300 mm): Track 0.200 mm, net [GND] (2) on layer F.Cu, length: 0.791 mm
+    @ (-44.125 mm,118.325 mm): Pad 2 on F.Cu, Non-copper of X1
+ErrType(7): Via near track
+    @ (345.346 mm,105.788 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 6.666 mm
+    @ (350.400 mm,104.700 mm): Via 1.000 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(16): Two track ends too close
+    @ (30.150 mm,118.200 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.950 mm
+    @ (31.600 mm,119.200 mm): Track 0.300 mm, net [V3.3] (328) on layer F.Cu, length: 0.707 mm
+ErrType(4): Track near pad
+    @ (192.062 mm,103.250 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.962 mm
+    @ (192.062 mm,103.750 mm): Pad 9 on F.Cu, Non-copper of U3
+ErrType(4): Track near pad
+    @ (192.000 mm,100.688 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.088 mm
+    @ (192.062 mm,101.250 mm): Pad 14 on F.Cu, Non-copper of U3
+ErrType(4): Track near pad
+    @ (189.750 mm,105.312 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 2.312 mm
+    @ (190.250 mm,105.312 mm): Pad 3 on F.Cu, Non-copper of U3
+ErrType(4): Track near pad
+    @ (188.938 mm,103.250 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.562 mm
+    @ (188.938 mm,103.750 mm): Pad 26 on F.Cu, Non-copper of U3
+ErrType(4): Track near pad
+    @ (342.125 mm,103.650 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.725 mm
+    @ (342.850 mm,104.375 mm): Pad 5 on F.Cu, Non-copper of U5
+ErrType(4): Track near pad
+    @ (342.850 mm,103.650 mm): Track 0.300 mm, net [GND] (2) on layer F.Cu, length: 0.472 mm
+    @ (342.850 mm,104.375 mm): Pad 5 on F.Cu, Non-copper of U5
+ErrType(18): Two track ends too close
+    @ (83.500 mm,109.600 mm): Track 0.200 mm, net [Net-(LED0_25-Pad5)] (51) on layer F.Cu, length: 2.263 mm
+    @ (84.850 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_25-Pad6)] (52) on layer F.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (85.100 mm,111.200 mm): Track 0.200 mm, net [Net-(LED0_25-Pad5)] (51) on layer F.Cu, length: 2.450 mm
+    @ (86.250 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_25-Pad6)] (52) on layer F.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (84.850 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_25-Pad6)] (52) on layer F.Cu, length: 1.400 mm
+    @ (85.200 mm,112.900 mm): Pad 3 on F.Cu, Non-copper of LED0_25
+ErrType(17): Two track ends too close
+    @ (-39.916 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_1-Pad5)] (67) on layer B.Cu, length: 2.144 mm
+    @ (-41.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_1-Pad6)] (68) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-42.450 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_1-Pad5)] (67) on layer B.Cu, length: 2.534 mm
+    @ (-42.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_1-Pad6)] (68) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (-41.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_1-Pad6)] (68) on layer B.Cu, length: 1.400 mm
+    @ (-40.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_2
+ErrType(4): Track near pad
+    @ (-35.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_2-Pad6)] (70) on layer B.Cu, length: 1.400 mm
+    @ (-34.800 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_3
+ErrType(17): Two track ends too close
+    @ (-29.400 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_3-Pad5)] (71) on layer B.Cu, length: 2.263 mm
+    @ (-30.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_3-Pad6)] (72) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-32.600 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_3-Pad5)] (71) on layer B.Cu, length: 3.200 mm
+    @ (-31.400 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_3-Pad6)] (72) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (-30.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_3-Pad6)] (72) on layer B.Cu, length: 1.400 mm
+    @ (-29.500 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_4
+ErrType(17): Two track ends too close
+    @ (-24.016 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_4-Pad5)] (73) on layer B.Cu, length: 2.144 mm
+    @ (-25.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_4-Pad6)] (74) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-26.550 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_4-Pad5)] (73) on layer B.Cu, length: 2.534 mm
+    @ (-26.100 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_4-Pad6)] (74) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (-25.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_4-Pad6)] (74) on layer B.Cu, length: 1.400 mm
+    @ (-24.200 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_5
+ErrType(4): Track near pad
+    @ (-19.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_5-Pad6)] (76) on layer B.Cu, length: 1.400 mm
+    @ (-18.900 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_6
+ErrType(4): Track near pad
+    @ (-14.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_6-Pad6)] (78) on layer B.Cu, length: 1.400 mm
+    @ (-13.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_7
+ErrType(17): Two track ends too close
+    @ (-8.116 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_7-Pad5)] (79) on layer B.Cu, length: 2.144 mm
+    @ (-9.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_7-Pad6)] (80) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-11.400 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_7-Pad5)] (79) on layer B.Cu, length: 3.284 mm
+    @ (-10.200 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_7-Pad6)] (80) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (-9.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_7-Pad6)] (80) on layer B.Cu, length: 1.400 mm
+    @ (-8.300 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_8
+ErrType(17): Two track ends too close
+    @ (-2.816 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_8-Pad5)] (81) on layer B.Cu, length: 2.144 mm
+    @ (-4.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_8-Pad6)] (82) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-5.350 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_8-Pad5)] (81) on layer B.Cu, length: 2.534 mm
+    @ (-4.900 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_8-Pad6)] (82) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (-4.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_8-Pad6)] (82) on layer B.Cu, length: 1.400 mm
+    @ (-3.000 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_9
+ErrType(17): Two track ends too close
+    @ (2.400 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_10-Pad2)] (83) on layer B.Cu, length: 2.263 mm
+    @ (1.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_10-Pad1)] (84) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (-0.800 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_10-Pad2)] (83) on layer B.Cu, length: 3.200 mm
+    @ (0.400 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_10-Pad1)] (84) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (1.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_10-Pad1)] (84) on layer B.Cu, length: 1.400 mm
+    @ (2.300 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_10
+ErrType(16): Two track ends too close
+    @ (5.250 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_10-Pad5)] (85) on layer B.Cu, length: 2.350 mm
+    @ (5.700 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_10-Pad6)] (86) on layer B.Cu, length: 1.202 mm
+ErrType(17): Two track ends too close
+    @ (7.600 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_10-Pad5)] (85) on layer B.Cu, length: 2.404 mm
+    @ (6.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_10-Pad6)] (86) on layer B.Cu, length: 1.400 mm
+ErrType(4): Track near pad
+    @ (6.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_10-Pad6)] (86) on layer B.Cu, length: 1.400 mm
+    @ (7.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_11
+ErrType(17): Two track ends too close
+    @ (13.000 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_11-Pad5)] (87) on layer B.Cu, length: 2.263 mm
+    @ (11.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_11-Pad6)] (88) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (10.550 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_11-Pad5)] (87) on layer B.Cu, length: 2.450 mm
+    @ (11.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_11-Pad6)] (88) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (11.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_11-Pad6)] (88) on layer B.Cu, length: 1.400 mm
+    @ (12.900 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_12
+ErrType(17): Two track ends too close
+    @ (18.384 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_12-Pad5)] (89) on layer B.Cu, length: 2.144 mm
+    @ (17.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_12-Pad6)] (90) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (15.850 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_12-Pad5)] (89) on layer B.Cu, length: 2.534 mm
+    @ (16.300 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_12-Pad6)] (90) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (17.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_12-Pad6)] (90) on layer B.Cu, length: 1.400 mm
+    @ (18.200 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_13
+ErrType(17): Two track ends too close
+    @ (23.684 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_13-Pad5)] (91) on layer B.Cu, length: 2.144 mm
+    @ (22.450 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_13-Pad6)] (92) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (21.150 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_13-Pad5)] (91) on layer B.Cu, length: 2.534 mm
+    @ (21.600 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_13-Pad6)] (92) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (22.450 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_13-Pad6)] (92) on layer B.Cu, length: 1.400 mm
+    @ (23.500 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_14
+ErrType(16): Two track ends too close
+    @ (26.450 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_14-Pad5)] (93) on layer B.Cu, length: 2.534 mm
+    @ (26.900 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_14-Pad6)] (94) on layer B.Cu, length: 1.202 mm
+ErrType(17): Two track ends too close
+    @ (28.984 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_14-Pad5)] (93) on layer B.Cu, length: 2.144 mm
+    @ (27.750 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_14-Pad6)] (94) on layer B.Cu, length: 1.400 mm
+ErrType(4): Track near pad
+    @ (27.750 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_14-Pad6)] (94) on layer B.Cu, length: 1.400 mm
+    @ (28.800 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_15
+ErrType(17): Two track ends too close
+    @ (34.284 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_15-Pad5)] (95) on layer B.Cu, length: 2.144 mm
+    @ (33.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_15-Pad6)] (96) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (31.750 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_15-Pad5)] (95) on layer B.Cu, length: 2.534 mm
+    @ (32.200 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_15-Pad6)] (96) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (33.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_15-Pad6)] (96) on layer B.Cu, length: 1.400 mm
+    @ (34.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_16
+ErrType(17): Two track ends too close
+    @ (39.600 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_16-Pad5)] (97) on layer B.Cu, length: 2.121 mm
+    @ (38.450 mm,109.500 mm): Track 0.200 mm, net [Net-(LED1_16-Pad6)] (98) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (37.150 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_16-Pad5)] (97) on layer B.Cu, length: 2.450 mm
+    @ (37.500 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_16-Pad6)] (98) on layer B.Cu, length: 1.344 mm
+ErrType(16): Two track ends too close
+    @ (42.350 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_17-Pad5)] (99) on layer B.Cu, length: 1.400 mm
+    @ (42.800 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_17-Pad6)] (100) on layer B.Cu, length: 1.202 mm
+ErrType(17): Two track ends too close
+    @ (43.750 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_17-Pad5)] (99) on layer B.Cu, length: 3.748 mm
+    @ (43.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_17-Pad6)] (100) on layer B.Cu, length: 1.450 mm
+ErrType(4): Track near pad
+    @ (43.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_17-Pad6)] (100) on layer B.Cu, length: 1.450 mm
+    @ (44.700 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_18
+ErrType(17): Two track ends too close
+    @ (50.100 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_18-Pad5)] (101) on layer B.Cu, length: 2.263 mm
+    @ (48.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_18-Pad6)] (102) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (47.650 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_18-Pad5)] (101) on layer B.Cu, length: 2.450 mm
+    @ (48.100 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_18-Pad6)] (102) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (48.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_18-Pad6)] (102) on layer B.Cu, length: 1.400 mm
+    @ (50.000 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_19
+ErrType(17): Two track ends too close
+    @ (60.700 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_20-Pad5)] (105) on layer B.Cu, length: 2.263 mm
+    @ (59.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_20-Pad6)] (106) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (58.250 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_20-Pad5)] (105) on layer B.Cu, length: 2.450 mm
+    @ (58.700 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_20-Pad6)] (106) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (59.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_20-Pad6)] (106) on layer B.Cu, length: 1.400 mm
+    @ (60.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_21
+ErrType(17): Two track ends too close
+    @ (66.000 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_21-Pad5)] (107) on layer B.Cu, length: 2.263 mm
+    @ (64.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_21-Pad6)] (108) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (62.800 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_21-Pad5)] (107) on layer B.Cu, length: 3.200 mm
+    @ (64.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_21-Pad6)] (108) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (64.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_21-Pad6)] (108) on layer B.Cu, length: 1.400 mm
+    @ (65.900 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_22
+ErrType(17): Two track ends too close
+    @ (71.300 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_22-Pad5)] (109) on layer B.Cu, length: 2.263 mm
+    @ (70.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_22-Pad6)] (110) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (68.100 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_22-Pad5)] (109) on layer B.Cu, length: 3.200 mm
+    @ (69.300 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_22-Pad6)] (110) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (70.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_22-Pad6)] (110) on layer B.Cu, length: 1.400 mm
+    @ (71.200 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_23
+ErrType(4): Track near pad
+    @ (74.700 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_23-Pad6)] (112) on layer B.Cu, length: 2.150 mm
+    @ (76.500 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_24
+ErrType(17): Two track ends too close
+    @ (87.200 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_25-Pad5)] (115) on layer B.Cu, length: 2.263 mm
+    @ (86.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_25-Pad6)] (116) on layer B.Cu, length: 1.450 mm
+ErrType(16): Two track ends too close
+    @ (84.000 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_25-Pad5)] (115) on layer B.Cu, length: 3.200 mm
+    @ (85.200 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_25-Pad6)] (116) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (86.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_25-Pad6)] (116) on layer B.Cu, length: 1.450 mm
+    @ (87.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_26
+ErrType(17): Two track ends too close
+    @ (92.400 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_26-Pad5)] (117) on layer B.Cu, length: 2.404 mm
+    @ (91.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_26-Pad6)] (118) on layer B.Cu, length: 1.450 mm
+ErrType(16): Two track ends too close
+    @ (89.300 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_26-Pad5)] (117) on layer B.Cu, length: 3.100 mm
+    @ (90.500 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_26-Pad6)] (118) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (91.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_26-Pad6)] (118) on layer B.Cu, length: 1.450 mm
+    @ (92.400 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_27
+ErrType(4): Track near pad
+    @ (96.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_27-Pad6)] (120) on layer B.Cu, length: 1.450 mm
+    @ (97.700 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_28
+ErrType(4): Track near pad
+    @ (101.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_28-Pad6)] (122) on layer B.Cu, length: 1.400 mm
+    @ (103.000 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_29
+ErrType(17): Two track ends too close
+    @ (108.400 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_29-Pad5)] (123) on layer B.Cu, length: 2.263 mm
+    @ (107.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_29-Pad6)] (124) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (105.950 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_29-Pad5)] (123) on layer B.Cu, length: 2.450 mm
+    @ (106.400 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_29-Pad6)] (124) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (107.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_29-Pad6)] (124) on layer B.Cu, length: 1.400 mm
+    @ (108.300 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_30
+ErrType(17): Two track ends too close
+    @ (113.700 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_30-Pad5)] (125) on layer B.Cu, length: 2.263 mm
+    @ (112.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_30-Pad6)] (126) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (110.500 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_30-Pad5)] (125) on layer B.Cu, length: 3.200 mm
+    @ (111.700 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_30-Pad6)] (126) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (112.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_30-Pad6)] (126) on layer B.Cu, length: 1.400 mm
+    @ (113.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_31
+ErrType(16): Two track ends too close
+    @ (116.550 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_31-Pad5)] (127) on layer B.Cu, length: 2.350 mm
+    @ (117.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_31-Pad6)] (128) on layer B.Cu, length: 1.202 mm
+ErrType(17): Two track ends too close
+    @ (118.900 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_31-Pad5)] (127) on layer B.Cu, length: 2.404 mm
+    @ (117.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_31-Pad6)] (128) on layer B.Cu, length: 1.400 mm
+ErrType(4): Track near pad
+    @ (117.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_31-Pad6)] (128) on layer B.Cu, length: 1.400 mm
+    @ (118.900 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_32
+ErrType(4): Track near pad
+    @ (123.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_32-Pad6)] (130) on layer B.Cu, length: 1.400 mm
+    @ (124.200 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_33
+ErrType(4): Track near pad
+    @ (-44.750 mm,119.100 mm): Track 0.200 mm, net [Net-(C1-Pad1)] (131) on layer F.Cu, length: 1.666 mm
+    @ (-45.275 mm,118.325 mm): Pad 3 on F.Cu, Non-copper of X1
+ErrType(4): Track near pad
+    @ (-49.600 mm,113.400 mm): Track 0.200 mm, net [Net-(C1-Pad1)] (131) on layer F.Cu, length: 1.032 mm
+    @ (-49.200 mm,113.400 mm): Pad 35 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-49.200 mm,113.400 mm): Track 0.200 mm, net [Net-(C2-Pad1)] (132) on layer F.Cu, length: 0.544 mm
+    @ (-49.600 mm,113.400 mm): Pad 34 on F.Cu, Non-copper of U1
+ErrType(16): Two track ends too close
+    @ (-52.800 mm,106.401 mm): Track 0.200 mm, net [Net-(ANT2-Pad1)] (133) on layer F.Cu, length: 0.849 mm
+    @ (-53.155 mm,106.155 mm): Track 0.250 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 1.068 mm
+ErrType(17): Two track ends too close
+    @ (-52.200 mm,105.800 mm): Track 0.200 mm, net [Net-(ANT2-Pad1)] (133) on layer F.Cu, length: 1.500 mm
+    @ (-53.155 mm,106.155 mm): Track 0.250 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 1.068 mm
+ErrType(4): Track near pad
+    @ (-52.800 mm,106.901 mm): Track 0.200 mm, net [Net-(ANT2-Pad1)] (133) on layer F.Cu, length: 0.499 mm
+    @ (-52.400 mm,107.400 mm): Pad 10 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-51.200 mm,114.000 mm): Track 0.200 mm, net [Net-(C3-Pad1)] (134) on layer F.Cu, length: 0.600 mm
+    @ (-51.600 mm,113.400 mm): Pad 29 on F.Cu, Non-copper of U1
+ErrType(5): Track near via
+    @ (-51.200 mm,117.866 mm): Track 0.200 mm, net [Net-(C3-Pad1)] (134) on layer F.Cu, length: 3.866 mm
+    @ (-51.800 mm,116.300 mm): Via 0.600 mm net [MIC_I2S_WS] (325) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (-48.100 mm,106.700 mm): Track 0.200 mm, net [Net-(C4-Pad1)] (135) on layer F.Cu, length: 0.990 mm
+    @ (-49.200 mm,107.400 mm): Pad 2 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-50.000 mm,113.400 mm): Track 0.200 mm, net [Net-(C7-Pad1)] (136) on layer F.Cu, length: 1.000 mm
+    @ (-50.400 mm,113.400 mm): Pad 32 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-48.000 mm,109.000 mm): Track 0.200 mm, net [Net-(C10-Pad1)] (137) on layer F.Cu, length: 0.600 mm
+    @ (-48.000 mm,108.600 mm): Pad 47 on F.Cu, Non-copper of U1
+ErrType(15): Two track ends too close
+    @ (-53.155 mm,106.155 mm): Track 0.250 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 1.068 mm
+    @ (-53.000 mm,104.500 mm): Track 0.200 mm, net [ACC_I2C_SDA] (321) on layer F.Cu, length: 0.707 mm
+ErrType(17): Two track ends too close
+    @ (-52.400 mm,105.400 mm): Track 0.250 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 1.432 mm
+    @ (-53.000 mm,104.500 mm): Track 0.200 mm, net [ACC_I2C_SDA] (321) on layer F.Cu, length: 0.707 mm
+ErrType(4): Track near pad
+    @ (-53.200 mm,106.700 mm): Track 0.200 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 0.700 mm
+    @ (-52.800 mm,107.400 mm): Pad 11 on F.Cu, Non-copper of U1
+ErrType(16): Two track ends too close
+    @ (34.200 mm,118.200 mm): Track 0.300 mm, net [Net-(L2-Pad2)] (141) on layer F.Cu, length: 1.450 mm
+    @ (34.200 mm,118.700 mm): Track 0.300 mm, net [V3.3] (328) on layer F.Cu, length: 0.707 mm
+ErrType(7): Via near track
+    @ (188.938 mm,104.750 mm): Track 0.300 mm, net [V3.3] (328) on layer F.Cu, length: 1.707 mm
+    @ (187.800 mm,104.000 mm): Via 0.800 mm net [Net-(R3-Pad1)] (144) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (-48.000 mm,112.200 mm): Track 0.200 mm, net [APA102_0_SCK] (145) on layer F.Cu, length: 1.900 mm
+    @ (-48.000 mm,112.600 mm): Pad 37 on F.Cu, Non-copper of U1
+ErrType(17): Two track ends too close
+    @ (-46.100 mm,112.200 mm): Track 0.200 mm, net [APA102_0_SCK] (145) on layer F.Cu, length: 0.990 mm
+    @ (-48.000 mm,111.800 mm): Track 0.200 mm, net [APA102_1_MOSI] (233) on layer F.Cu, length: 2.048 mm
+ErrType(4): Track near pad
+    @ (-48.000 mm,112.600 mm): Track 0.200 mm, net [APA102_0_MOSI] (146) on layer F.Cu, length: 0.648 mm
+    @ (-48.000 mm,112.200 mm): Pad 38 on F.Cu, Non-copper of U1
+ErrType(18): Two track ends too close
+    @ (178.900 mm,109.600 mm): Track 0.200 mm, net [Net-(LED0_43-Pad5)] (167) on layer F.Cu, length: 2.263 mm
+    @ (180.250 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_43-Pad6)] (168) on layer F.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (180.500 mm,111.200 mm): Track 0.200 mm, net [Net-(LED0_43-Pad5)] (167) on layer F.Cu, length: 2.450 mm
+    @ (181.650 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_43-Pad6)] (168) on layer F.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (180.250 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_43-Pad6)] (168) on layer F.Cu, length: 1.400 mm
+    @ (180.600 mm,112.900 mm): Pad 3 on F.Cu, Non-copper of LED0_43
+ErrType(18): Two track ends too close
+    @ (221.300 mm,109.600 mm): Track 0.200 mm, net [Net-(LED0_51-Pad5)] (183) on layer F.Cu, length: 2.263 mm
+    @ (222.650 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_51-Pad6)] (184) on layer F.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (222.900 mm,111.200 mm): Track 0.200 mm, net [Net-(LED0_51-Pad5)] (183) on layer F.Cu, length: 2.450 mm
+    @ (224.050 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_51-Pad6)] (184) on layer F.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (222.650 mm,111.600 mm): Track 0.200 mm, net [Net-(LED0_51-Pad6)] (184) on layer F.Cu, length: 1.400 mm
+    @ (223.000 mm,112.900 mm): Pad 3 on F.Cu, Non-copper of LED0_51
+ErrType(4): Track near pad
+    @ (-48.000 mm,111.800 mm): Track 0.200 mm, net [APA102_1_MOSI] (233) on layer F.Cu, length: 2.048 mm
+    @ (-48.000 mm,112.200 mm): Pad 38 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-48.000 mm,111.400 mm): Track 0.200 mm, net [APA102_1_SCK] (234) on layer F.Cu, length: 1.600 mm
+    @ (-48.000 mm,111.000 mm): Pad 41 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (128.450 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_33-Pad6)] (236) on layer B.Cu, length: 1.400 mm
+    @ (129.500 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_34
+ErrType(4): Track near pad
+    @ (133.750 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_34-Pad6)] (238) on layer B.Cu, length: 1.400 mm
+    @ (134.800 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_35
+ErrType(4): Track near pad
+    @ (139.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_35-Pad6)] (240) on layer B.Cu, length: 1.400 mm
+    @ (140.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_36
+ErrType(17): Two track ends too close
+    @ (145.300 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_36-Pad5)] (241) on layer B.Cu, length: 2.546 mm
+    @ (144.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_36-Pad6)] (242) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (142.300 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_36-Pad5)] (241) on layer B.Cu, length: 3.000 mm
+    @ (143.500 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_36-Pad6)] (242) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (144.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_36-Pad6)] (242) on layer B.Cu, length: 1.400 mm
+    @ (145.400 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_37
+ErrType(17): Two track ends too close
+    @ (150.800 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_37-Pad5)] (243) on layer B.Cu, length: 2.263 mm
+    @ (149.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_37-Pad6)] (244) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (148.350 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_37-Pad5)] (243) on layer B.Cu, length: 2.450 mm
+    @ (148.800 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_37-Pad6)] (244) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (149.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_37-Pad6)] (244) on layer B.Cu, length: 1.400 mm
+    @ (150.700 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_38
+ErrType(4): Track near pad
+    @ (154.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_38-Pad6)] (246) on layer B.Cu, length: 1.400 mm
+    @ (156.000 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_39
+ErrType(17): Two track ends too close
+    @ (161.200 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_39-Pad5)] (247) on layer B.Cu, length: 2.546 mm
+    @ (160.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_39-Pad6)] (248) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (158.200 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_39-Pad5)] (247) on layer B.Cu, length: 3.000 mm
+    @ (159.400 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_39-Pad6)] (248) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (160.250 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_39-Pad6)] (248) on layer B.Cu, length: 1.400 mm
+    @ (161.300 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_40
+ErrType(17): Two track ends too close
+    @ (166.700 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_40-Pad5)] (249) on layer B.Cu, length: 2.263 mm
+    @ (165.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_40-Pad6)] (250) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (163.500 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_40-Pad5)] (249) on layer B.Cu, length: 3.200 mm
+    @ (164.700 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_40-Pad6)] (250) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (165.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_40-Pad6)] (250) on layer B.Cu, length: 1.400 mm
+    @ (166.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_41
+ErrType(17): Two track ends too close
+    @ (172.100 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_41-Pad5)] (251) on layer B.Cu, length: 2.121 mm
+    @ (170.950 mm,109.500 mm): Track 0.200 mm, net [Net-(LED1_41-Pad6)] (252) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (169.650 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_41-Pad5)] (251) on layer B.Cu, length: 2.450 mm
+    @ (170.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_41-Pad6)] (252) on layer B.Cu, length: 1.344 mm
+ErrType(17): Two track ends too close
+    @ (177.200 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_42-Pad5)] (253) on layer B.Cu, length: 2.404 mm
+    @ (176.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_42-Pad6)] (254) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (174.850 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_42-Pad5)] (253) on layer B.Cu, length: 2.350 mm
+    @ (175.300 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_42-Pad6)] (254) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (176.150 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_42-Pad6)] (254) on layer B.Cu, length: 1.400 mm
+    @ (177.200 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_43
+ErrType(17): Two track ends too close
+    @ (182.500 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_43-Pad5)] (255) on layer B.Cu, length: 2.404 mm
+    @ (181.450 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_43-Pad6)] (256) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (180.150 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_43-Pad5)] (255) on layer B.Cu, length: 2.350 mm
+    @ (180.600 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_43-Pad6)] (256) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (181.450 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_43-Pad6)] (256) on layer B.Cu, length: 1.400 mm
+    @ (182.500 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_44
+ErrType(17): Two track ends too close
+    @ (187.900 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_44-Pad5)] (257) on layer B.Cu, length: 2.263 mm
+    @ (186.750 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_44-Pad6)] (258) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (184.700 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_44-Pad5)] (257) on layer B.Cu, length: 3.200 mm
+    @ (185.900 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_44-Pad6)] (258) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (186.750 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_44-Pad6)] (258) on layer B.Cu, length: 1.400 mm
+    @ (187.800 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_45
+ErrType(17): Two track ends too close
+    @ (193.200 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_45-Pad5)] (259) on layer B.Cu, length: 2.263 mm
+    @ (192.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_45-Pad6)] (260) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (190.750 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_45-Pad5)] (259) on layer B.Cu, length: 2.450 mm
+    @ (191.200 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_45-Pad6)] (260) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (192.050 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_45-Pad6)] (260) on layer B.Cu, length: 1.400 mm
+    @ (193.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_46
+ErrType(4): Track near pad
+    @ (197.350 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_46-Pad6)] (262) on layer B.Cu, length: 1.400 mm
+    @ (198.400 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_47
+ErrType(4): Track near pad
+    @ (202.650 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_47-Pad6)] (264) on layer B.Cu, length: 1.400 mm
+    @ (203.700 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_48
+ErrType(17): Two track ends too close
+    @ (209.100 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_48-Pad5)] (265) on layer B.Cu, length: 2.263 mm
+    @ (207.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_48-Pad6)] (266) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (205.900 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_48-Pad5)] (265) on layer B.Cu, length: 3.200 mm
+    @ (207.100 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_48-Pad6)] (266) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (207.950 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_48-Pad6)] (266) on layer B.Cu, length: 1.400 mm
+    @ (209.000 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_49
+ErrType(17): Two track ends too close
+    @ (214.300 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_49-Pad5)] (267) on layer B.Cu, length: 2.404 mm
+    @ (213.350 mm,109.500 mm): Track 0.200 mm, net [Net-(LED1_49-Pad6)] (268) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (211.300 mm,109.900 mm): Track 0.200 mm, net [Net-(LED1_49-Pad5)] (267) on layer B.Cu, length: 3.000 mm
+    @ (212.400 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_49-Pad6)] (268) on layer B.Cu, length: 1.344 mm
+ErrType(4): Track near pad
+    @ (218.550 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_50-Pad6)] (270) on layer B.Cu, length: 1.378 mm
+    @ (219.600 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_51
+ErrType(17): Two track ends too close
+    @ (224.900 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_51-Pad5)] (271) on layer B.Cu, length: 2.404 mm
+    @ (223.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_51-Pad6)] (272) on layer B.Cu, length: 1.400 mm
+ErrType(16): Two track ends too close
+    @ (221.800 mm,109.800 mm): Track 0.200 mm, net [Net-(LED1_51-Pad5)] (271) on layer B.Cu, length: 3.100 mm
+    @ (223.000 mm,108.550 mm): Track 0.200 mm, net [Net-(LED1_51-Pad6)] (272) on layer B.Cu, length: 1.202 mm
+ErrType(4): Track near pad
+    @ (223.850 mm,109.400 mm): Track 0.200 mm, net [Net-(LED1_51-Pad6)] (272) on layer B.Cu, length: 1.400 mm
+    @ (224.900 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_52
+ErrType(4): Track near pad
+    @ (-52.000 mm,107.400 mm): Track 0.200 mm, net [ACC_I2C_SDA] (321) on layer F.Cu, length: 1.000 mm
+    @ (-52.400 mm,107.400 mm): Pad 10 on F.Cu, Non-copper of U1
+ErrType(7): Via near track
+    @ (-51.600 mm,107.400 mm): Track 0.200 mm, net [ACC_I2C_SCL] (323) on layer F.Cu, length: 0.600 mm
+    @ (-52.000 mm,106.400 mm): Via 0.600 mm net [ACC_I2C_SDA] (321) on layers F.Cu/B.Cu
+ErrType(17): Two track ends too close
+    @ (-50.300 mm,99.900 mm): Track 0.200 mm, net [ACC_I2C_SDA] (321) on layer F.Cu, length: 0.849 mm
+    @ (185.750 mm,99.500 mm): Track 0.200 mm, net [ACC_I2C_SCL] (323) on layer F.Cu, length: 236.250 mm
+ErrType(18): Two track ends too close
+    @ (181.700 mm,101.200 mm): Track 0.200 mm, net [ACC_I2C_SDA] (321) on layer F.Cu, length: 1.838 mm
+    @ (185.750 mm,99.500 mm): Track 0.200 mm, net [ACC_I2C_SCL] (323) on layer F.Cu, length: 236.250 mm
+ErrType(4): Track near pad
+    @ (-54.000 mm,112.200 mm): Track 0.200 mm, net [MIC_I2S_SD] (322) on layer F.Cu, length: 0.900 mm
+    @ (-54.000 mm,111.800 mm): Pad 22 on F.Cu, Non-copper of U1
+ErrType(17): Two track ends too close
+    @ (-54.900 mm,112.200 mm): Track 0.200 mm, net [MIC_I2S_SD] (322) on layer F.Cu, length: 0.424 mm
+    @ (-54.000 mm,112.600 mm): Track 0.200 mm, net [RESET] (341) on layer F.Cu, length: 1.488 mm
+ErrType(7): Via near track
+    @ (-55.800 mm,102.800 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 11.300 mm
+    @ (-55.200 mm,111.900 mm): Via 0.600 mm net [MIC_I2S_SD] (322) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (-51.600 mm,107.400 mm): Track 0.200 mm, net [ACC_I2C_SCL] (323) on layer F.Cu, length: 0.600 mm
+    @ (-51.200 mm,107.400 mm): Pad 7 on F.Cu, Non-copper of U1
+ErrType(5): Track near via
+    @ (185.750 mm,99.500 mm): Track 0.200 mm, net [ACC_I2C_SCL] (323) on layer F.Cu, length: 236.250 mm
+    @ (182.200 mm,100.300 mm): Via 1.000 mm net [V3.3] (328) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (-51.700 mm,104.800 mm): Via 0.600 mm net [ACC_I2C_SCL] (323) on layers F.Cu/B.Cu
+    @ (-51.800 mm,104.050 mm): Pad 1 on B.Cu, Non-copper of C8
+ErrType(4): Track near pad
+    @ (-52.400 mm,118.400 mm): Track 0.200 mm, net [MIC_I2S_SCK] (324) on layer F.Cu, length: 5.000 mm
+    @ (-52.000 mm,113.400 mm): Pad 28 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-52.000 mm,116.100 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 2.700 mm
+    @ (-51.600 mm,113.400 mm): Pad 29 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (345.075 mm,103.150 mm): Track 0.300 mm, net [VIN] (326) on layer F.Cu, length: 0.925 mm
+    @ (345.075 mm,103.650 mm): Pad 9 on F.Cu, Non-copper of U5
+ErrType(7): Via near track
+    @ (345.346 mm,105.788 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 6.666 mm
+    @ (346.400 mm,104.800 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(7): Via near track
+    @ (345.346 mm,105.788 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 6.666 mm
+    @ (351.150 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(7): Via near track
+    @ (342.700 mm,106.000 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 2.434 mm
+    @ (345.850 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (284.050 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (284.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_63
+ErrType(4): Track near pad
+    @ (278.750 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (279.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_62
+ErrType(4): Track near pad
+    @ (273.450 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (274.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_61
+ErrType(4): Track near pad
+    @ (262.850 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (263.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_59
+ErrType(4): Track near pad
+    @ (257.550 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (258.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_58
+ErrType(4): Track near pad
+    @ (252.250 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (253.100 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_57
+ErrType(4): Track near pad
+    @ (246.950 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (247.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_56
+ErrType(4): Track near pad
+    @ (241.650 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (242.500 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_55
+ErrType(4): Track near pad
+    @ (236.350 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (237.200 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_54
+ErrType(4): Track near pad
+    @ (231.050 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (231.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_53
+ErrType(4): Track near pad
+    @ (225.750 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (226.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_52
+ErrType(4): Track near pad
+    @ (220.450 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (221.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_51
+ErrType(4): Track near pad
+    @ (215.150 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (216.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_50
+ErrType(4): Track near pad
+    @ (209.850 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (210.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_49
+ErrType(4): Track near pad
+    @ (204.550 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (205.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_48
+ErrType(4): Track near pad
+    @ (199.250 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (200.100 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_47
+ErrType(4): Track near pad
+    @ (193.950 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (194.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_46
+ErrType(4): Track near pad
+    @ (172.750 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (173.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_42
+ErrType(4): Track near pad
+    @ (167.450 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (168.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_41
+ErrType(4): Track near pad
+    @ (162.150 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (163.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_40
+ErrType(4): Track near pad
+    @ (156.850 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (157.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_39
+ErrType(4): Track near pad
+    @ (151.550 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (152.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_38
+ErrType(4): Track near pad
+    @ (146.250 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (147.100 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_37
+ErrType(4): Track near pad
+    @ (140.950 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (141.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_36
+ErrType(4): Track near pad
+    @ (135.650 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (136.500 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_35
+ErrType(4): Track near pad
+    @ (130.350 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (131.200 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_34
+ErrType(4): Track near pad
+    @ (125.050 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (125.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_33
+ErrType(4): Track near pad
+    @ (119.750 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (120.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_32
+ErrType(4): Track near pad
+    @ (114.450 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (115.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_31
+ErrType(4): Track near pad
+    @ (109.150 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (110.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_30
+ErrType(4): Track near pad
+    @ (103.850 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (104.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_29
+ErrType(4): Track near pad
+    @ (98.550 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (99.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_28
+ErrType(4): Track near pad
+    @ (93.250 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (94.100 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_27
+ErrType(4): Track near pad
+    @ (87.950 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (88.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_26
+ErrType(4): Track near pad
+    @ (82.650 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (83.500 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_25
+ErrType(4): Track near pad
+    @ (77.350 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (78.200 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_24
+ErrType(4): Track near pad
+    @ (72.050 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (72.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_23
+ErrType(4): Track near pad
+    @ (66.750 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (67.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_22
+ErrType(4): Track near pad
+    @ (61.450 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (62.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_21
+ErrType(4): Track near pad
+    @ (56.150 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (57.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_20
+ErrType(4): Track near pad
+    @ (50.850 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (51.700 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_19
+ErrType(4): Track near pad
+    @ (45.550 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (46.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_18
+ErrType(4): Track near pad
+    @ (34.950 mm,106.800 mm): Track 0.200 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (35.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_16
+ErrType(4): Track near pad
+    @ (29.650 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (30.500 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_15
+ErrType(4): Track near pad
+    @ (24.350 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (25.200 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_14
+ErrType(4): Track near pad
+    @ (19.050 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (19.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_13
+ErrType(4): Track near pad
+    @ (13.750 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (14.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_12
+ErrType(4): Track near pad
+    @ (8.450 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (9.300 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_11
+ErrType(4): Track near pad
+    @ (3.150 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (4.000 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_10
+ErrType(4): Track near pad
+    @ (-2.150 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (0.400 mm,108.100 mm): Pad 6 on B.Cu, Non-copper of LED1_9
+ErrType(4): Track near pad
+    @ (-7.450 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (-6.600 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_8
+ErrType(4): Track near pad
+    @ (-12.750 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (-11.900 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_7
+ErrType(4): Track near pad
+    @ (-18.050 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (-17.200 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_6
+ErrType(4): Track near pad
+    @ (-23.350 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.600 mm
+    @ (-22.500 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_5
+ErrType(4): Track near pad
+    @ (-28.800 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.750 mm
+    @ (-27.800 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_4
+ErrType(4): Track near pad
+    @ (-33.900 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 3.550 mm
+    @ (-33.100 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_3
+ErrType(4): Track near pad
+    @ (-38.627 mm,106.800 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 2.977 mm
+    @ (-38.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_2
+ErrType(4): Track near pad
+    @ (-39.404 mm,106.804 mm): Track 0.350 mm, net [VIN] (326) on layer B.Cu, length: 0.773 mm
+    @ (-38.400 mm,108.100 mm): Pad 5 on B.Cu, Non-copper of LED1_2
+ErrType(4): Track near pad
+    @ (345.075 mm,103.150 mm): Track 0.300 mm, net [VIN] (326) on layer F.Cu, length: 0.475 mm
+    @ (345.075 mm,103.650 mm): Pad 9 on F.Cu, Non-copper of U5
+ErrType(4): Track near pad
+    @ (345.075 mm,102.650 mm): Track 0.300 mm, net [VIN] (326) on layer F.Cu, length: 1.275 mm
+    @ (345.075 mm,102.150 mm): Pad 12 on F.Cu, Non-copper of U5
+ErrType(17): Two track ends too close
+    @ (346.350 mm,102.650 mm): Track 0.300 mm, net [VIN] (326) on layer F.Cu, length: 0.071 mm
+    @ (345.075 mm,102.150 mm): Track 0.300 mm, net [Net-(R8-Pad1)] (330) on layer F.Cu, length: 5.375 mm
+ErrType(16): Two track ends too close
+    @ (342.700 mm,106.000 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 2.434 mm
+    @ (344.645 mm,105.286 mm): Track 0.250 mm, net [PM_EN2] (333) on layer F.Cu, length: 0.566 mm
+ErrType(5): Track near via
+    @ (345.346 mm,105.788 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 6.666 mm
+    @ (345.045 mm,104.886 mm): Via 0.800 mm net [PM_EN2] (333) on layers F.Cu/B.Cu
+ErrType(16): Two track ends too close
+    @ (340.540 mm,103.200 mm): Track 0.850 mm, net [VBAT] (327) on layer F.Cu, length: 3.536 mm
+    @ (342.850 mm,105.000 mm): Track 0.250 mm, net [PM_EN2] (333) on layer F.Cu, length: 0.405 mm
+ErrType(4): Track near pad
+    @ (342.125 mm,103.150 mm): Track 0.300 mm, net [VBAT] (327) on layer F.Cu, length: 1.225 mm
+    @ (342.125 mm,103.650 mm): Pad 4 on F.Cu, Non-copper of U5
+ErrType(4): Track near pad
+    @ (-54.000 mm,108.200 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 1.548 mm
+    @ (-54.000 mm,108.600 mm): Pad 14 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-48.800 mm,113.400 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 0.700 mm
+    @ (-49.200 mm,113.400 mm): Pad 35 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-54.100 mm,108.200 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 0.207 mm
+    @ (-54.000 mm,108.600 mm): Pad 14 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-54.000 mm,108.200 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 0.100 mm
+    @ (-54.000 mm,108.600 mm): Pad 14 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-9.000 mm,118.900 mm): Via 1.000 mm net [V3.3] (328) on layers F.Cu/B.Cu
+    @ (-10.000 mm,118.975 mm): Pad 6 on F.Cu, Non-copper of U4
+ErrType(4): Track near pad
+    @ (-47.600 mm,107.800 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 0.566 mm
+    @ (-48.000 mm,108.600 mm): Pad 47 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-48.000 mm,108.200 mm): Track 0.200 mm, net [V3.3] (328) on layer F.Cu, length: 0.050 mm
+    @ (-48.000 mm,108.600 mm): Pad 47 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (187.180 mm,104.800 mm): Track 0.300 mm, net [V3.3] (328) on layer F.Cu, length: 2.030 mm
+    @ (186.650 mm,104.000 mm): Pad 1 on F.Cu, Non-copper of R3
+ErrType(4): Track near pad
+    @ (188.938 mm,104.750 mm): Track 0.300 mm, net [V3.3] (328) on layer F.Cu, length: 1.707 mm
+    @ (188.938 mm,104.250 mm): Pad 27 on F.Cu, Non-copper of U3
+ErrType(4): Track near pad
+    @ (37.925 mm,119.200 mm): Track 0.500 mm, net [V3.3] (328) on layer F.Cu, length: 4.090 mm
+    @ (35.800 mm,118.350 mm): Pad 2 on F.Cu, Non-copper of L2
+ErrType(4): Track near pad
+    @ (345.075 mm,102.150 mm): Track 0.300 mm, net [Net-(R8-Pad1)] (330) on layer F.Cu, length: 5.375 mm
+    @ (345.075 mm,102.650 mm): Pad 11 on F.Cu, Non-copper of U5
+ErrType(4): Track near pad
+    @ (-39.250 mm,111.850 mm): Track 0.200 mm, net [TX] (336) on layer B.Cu, length: 2.300 mm
+    @ (-40.100 mm,112.900 mm): Pad 3 on B.Cu, Non-copper of LED1_2
+ErrType(4): Track near pad
+    @ (-49.600 mm,107.400 mm): Track 0.200 mm, net [TX] (336) on layer F.Cu, length: 1.851 mm
+    @ (-50.000 mm,107.400 mm): Pad 4 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-49.200 mm,107.400 mm): Track 0.200 mm, net [RX] (337) on layer F.Cu, length: 1.172 mm
+    @ (-48.800 mm,107.400 mm): Pad 1 on F.Cu, Non-copper of U1
+ErrType(16): Two track ends too close
+    @ (-41.912 mm,100.300 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 11.388 mm
+    @ (-55.400 mm,103.100 mm): Track 0.200 mm, net [SWCLK] (339) on layer B.Cu, length: 3.394 mm
+ErrType(17): Two track ends too close
+    @ (-53.300 mm,100.300 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 3.536 mm
+    @ (-37.620 mm,99.900 mm): Track 0.200 mm, net [SWO] (340) on layer B.Cu, length: 16.180 mm
+ErrType(16): Two track ends too close
+    @ (-55.800 mm,102.800 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 11.300 mm
+    @ (-55.375 mm,108.665 mm): Track 0.200 mm, net [SWCLK] (339) on layer B.Cu, length: 0.035 mm
+ErrType(5): Track near via
+    @ (-41.912 mm,100.300 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 0.388 mm
+    @ (-42.400 mm,100.700 mm): Via 0.600 mm net [SWCLK] (339) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (-39.900 mm,101.479 mm): Track 0.200 mm, net [SWDIO] (338) on layer B.Cu, length: 1.667 mm
+    @ (-37.620 mm,99.900 mm): Track 0.200 mm, net [SWO] (340) on layer B.Cu, length: 16.180 mm
+ErrType(4): Track near pad
+    @ (-52.800 mm,114.400 mm): Track 0.200 mm, net [SWDIO] (338) on layer F.Cu, length: 1.000 mm
+    @ (-52.400 mm,113.400 mm): Pad 27 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-53.300 mm,113.500 mm): Track 0.200 mm, net [SWCLK] (339) on layer F.Cu, length: 0.141 mm
+    @ (-52.800 mm,113.400 mm): Pad 26 on F.Cu, Non-copper of U1
+ErrType(17): Two track ends too close
+    @ (-53.800 mm,99.900 mm): Track 0.200 mm, net [SWO] (340) on layer B.Cu, length: 0.283 mm
+    @ (-54.424 mm,99.500 mm): Track 0.200 mm, net [RESET] (341) on layer B.Cu, length: 21.484 mm
+ErrType(18): Two track ends too close
+    @ (-34.820 mm,102.700 mm): Track 0.200 mm, net [SWO] (340) on layer B.Cu, length: 3.960 mm
+    @ (-54.424 mm,99.500 mm): Track 0.200 mm, net [RESET] (341) on layer B.Cu, length: 21.484 mm
+ErrType(4): Track near pad
+    @ (-54.000 mm,111.400 mm): Track 0.200 mm, net [SWO] (340) on layer F.Cu, length: 0.600 mm
+    @ (-54.000 mm,111.800 mm): Pad 22 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (-54.000 mm,112.600 mm): Track 0.200 mm, net [RESET] (341) on layer F.Cu, length: 1.488 mm
+    @ (-54.000 mm,112.200 mm): Pad 23 on F.Cu, Non-copper of U1
+ErrType(39): Track inside a keepout area
+    @ (-33.300 mm,120.000 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 1.350 mm
+ErrType(39): Track inside a keepout area
+    @ (-31.950 mm,120.000 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 0.141 mm
+ErrType(39): Track inside a keepout area
+    @ (-37.025 mm,119.900 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 0.919 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.375 mm,120.550 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 2.075 mm
+ErrType(39): Track inside a keepout area
+    @ (-33.750 mm,120.000 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 0.450 mm
+ErrType(39): Track inside a keepout area
+    @ (-34.300 mm,120.550 mm): Track 0.200 mm, net [Net-(ANT1-Pad2)] (1) on layer F.Cu, length: 0.778 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.147 mm,120.053 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.053 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.550 mm,118.950 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 3.450 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.200 mm,120.053 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.753 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.200 mm,119.300 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.495 mm
+ErrType(39): Track inside a keepout area
+    @ (-29.950 mm,119.900 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 11.772 mm
+ErrType(39): Track inside a keepout area
+    @ (-32.806 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 2.894 mm
+ErrType(39): Track inside a keepout area
+    @ (-35.700 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 2.000 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.147 mm,120.053 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.600 mm
+ErrType(39): Track inside a keepout area
+    @ (-35.547 mm,120.053 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.031 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.147 mm,120.053 mm): Track 0.350 mm, net [GND] (2) on layer F.Cu, length: 0.031 mm
+ErrType(39): Track inside a keepout area
+    @ (-21.850 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 0.350 mm
+ErrType(39): Track inside a keepout area
+    @ (-22.200 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 4.950 mm
+ErrType(39): Track inside a keepout area
+    @ (-16.550 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 5.650 mm
+ErrType(39): Track inside a keepout area
+    @ (-20.800 mm,113.350 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.485 mm
+ErrType(39): Track inside a keepout area
+    @ (-26.100 mm,113.350 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.485 mm
+ErrType(39): Track inside a keepout area
+    @ (-27.150 mm,114.400 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 5.656 mm
+ErrType(39): Track inside a keepout area
+    @ (-31.400 mm,112.994 mm): Track 0.400 mm, net [GND] (2) on layer F.Cu, length: 1.989 mm
+ErrType(39): Track inside a keepout area
+    @ (-38.300 mm,114.900 mm): Track 0.200 mm, net [MIC_I2S_WS] (325) on layer F.Cu, length: 21.061 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.200 mm,120.200 mm): Track 0.250 mm, net [MIC_I2S_SD] (322) on layer B.Cu, length: 19.000 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.900 mm,119.500 mm): Track 0.250 mm, net [MIC_I2S_SD] (322) on layer B.Cu, length: 0.990 mm
+ErrType(39): Track inside a keepout area
+    @ (-6.100 mm,120.900 mm): Track 0.500 mm, net [V3.3] (328) on layer B.Cu, length: 30.284 mm
+ErrType(39): Track inside a keepout area
+    @ (-36.384 mm,120.900 mm): Track 0.500 mm, net [V3.3] (328) on layer B.Cu, length: 1.614 mm
+ErrType(39): Track inside a keepout area
+    @ (-38.800 mm,114.600 mm): Track 0.200 mm, net [TX] (336) on layer B.Cu, length: 18.834 mm
+ErrType(39): Track inside a keepout area
+    @ (-19.800 mm,115.000 mm): Track 0.200 mm, net [RX] (337) on layer B.Cu, length: 20.600 mm
+ErrType(39): Track inside a keepout area
+    @ (-42.098 mm,103.900 mm): Track 0.200 mm, net [Net-(ANT2-Pad1)] (133) on layer F.Cu, length: 14.000 mm
+ErrType(39): Track inside a keepout area
+    @ (-27.590 mm,101.437 mm): Track 0.200 mm, net [Net-(ANT2-Pad2)] (139) on layer F.Cu, length: 15.923 mm
+ErrType(38): Via inside a keepout area
+    @ (27.850 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (22.550 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (17.250 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (11.950 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (6.650 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (1.350 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-3.950 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-9.250 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-14.550 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-19.850 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-25.150 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (27.850 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (22.550 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (17.250 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (11.950 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (6.650 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (1.350 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-3.950 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-9.250 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-14.550 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-19.850 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+ErrType(38): Via inside a keepout area
+    @ (-25.150 mm,106.838 mm): Via 1.000 mm net [VIN] (326) on layers F.Cu/B.Cu
+
+** Found 14 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (429.736 mm,103.061 mm): Pad 2 on B.Cu, Non-copper of BAT net GND
+    @ (429.736 mm,103.061 mm): Pad 2 on F.Cu, Non-copper of BAT
+ErrType(2): Unconnected pads
+    @ (-7.850 mm,118.975 mm): Pad 2 on F.Cu, Non-copper of U4 net GND
+    @ (-8.925 mm,116.825 mm): Pad 4 on Non-copper of U4
+ErrType(2): Unconnected pads
+    @ (34.200 mm,116.700 mm): Pad 5 on F.Cu, Non-copper of U2 net VIN
+    @ (34.100 mm,108.100 mm): Pad 4 on B.Cu, Non-copper of LED1_16
+ErrType(2): Unconnected pads
+    @ (359.695 mm,117.539 mm): Pad 1 on B.Cu, Non-copper of BAT net VBAT
+    @ (358.680 mm,119.254 mm): Pad 1 on F.Cu, Non-copper of BAT
+ErrType(2): Unconnected pads
+    @ (359.695 mm,103.061 mm): Pad 1 on B.Cu, Non-copper of BAT net VBAT
+    @ (359.695 mm,103.061 mm): Pad 1 on F.Cu, Non-copper of BAT
+ErrType(2): Unconnected pads
+    @ (344.350 mm,101.425 mm): Pad 13 on F.Cu, Non-copper of U5 net VUSB
+    @ (346.400 mm,101.500 mm): Pad 1 on F.Cu, Non-copper of C25
+ErrType(2): Unconnected pads
+    @ (-54.000 mm,108.600 mm): Pad 14 on F.Cu, Non-copper of U1 net PM_ISET
+    @ (340.250 mm,104.800 mm): Pad 1 on F.Cu, Non-copper of R9
+ErrType(2): Unconnected pads
+    @ (342.850 mm,104.375 mm): Pad 5 on F.Cu, Non-copper of U5 net PM_EN2
+    @ (-54.000 mm,109.400 mm): Pad 16 on F.Cu, Non-copper of U1
+ErrType(2): Unconnected pads
+    @ (332.750 mm,104.399 mm): Pad 1 on F.Cu, Non-copper of U6 net PM_SWITCH
+    @ (-54.000 mm,110.600 mm): Pad 19 on F.Cu, Non-copper of U1
+ErrType(2): Unconnected pads
+    @ (4.700 mm,117.600 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of SERIAL net TX
+    @ (-48.000 mm,110.200 mm): Pad 43 on F.Cu, Non-copper of U1
+ErrType(2): Unconnected pads
+    @ (-48.000 mm,110.600 mm): Pad 42 on F.Cu, Non-copper of U1 net RX
+    @ (7.240 mm,117.600 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of SERIAL
+ErrType(2): Unconnected pads
+    @ (-54.000 mm,109.000 mm): Pad 15 on F.Cu, Non-copper of U1 net PM_EN1
+    @ (343.350 mm,104.375 mm): Pad 6 on F.Cu, Non-copper of U5
+ErrType(2): Unconnected pads
+    @ (-54.000 mm,109.800 mm): Pad 17 on F.Cu, Non-copper of U1 net PM_!GOOD
+    @ (343.850 mm,104.375 mm): Pad 7 on F.Cu, Non-copper of U5
+ErrType(2): Unconnected pads
+    @ (-54.000 mm,110.200 mm): Pad 18 on F.Cu, Non-copper of U1 net PM_!CHG
+    @ (345.075 mm,103.650 mm): Pad 9 on F.Cu, Non-copper of U5
+
+** End of Report **
