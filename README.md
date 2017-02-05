@@ -9,13 +9,14 @@ TODO
 
 
 v0.1:
- * Battery compartment is not quite wide enough.
- * Battery compartment battery spring slot is:
+ X Battery compartment is not quite wide enough.
+ IGNORE Battery compartment battery spring slot is:
    - 0.5mm too thin, should be 1.6mm
    - 0.5mm too slim, should me 17.75mm
- * Spring slots lack copper on the back side
- * Missing +/- symbols on the battery silkscreen
+ X Spring slots lack copper on the back side
+ X Missing +/- symbols on the battery silkscreen
  ? Rotate battery footprint 180 degrees
+ 
  
  * U5/bq24075 EN1 is not pulled down
  * U5/bq24075 sysoff turns charging off. Which is should never dd
