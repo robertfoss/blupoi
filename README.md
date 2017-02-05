@@ -28,7 +28,7 @@ v0.1:
    - SiP32408? 3.5A probably ok since no usb port delivers that, and probable no battery either
      - http://www.vishay.com/docs/63717/sip32408.pdf
 
- * Mic port hole is not drilled (hole too small?)
+ X Mic port hole is not drilled (hole too small?)
  * Mic pads should probably be longer
 
  * Move button footprint slightly closer to edge
