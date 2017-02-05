@@ -1,4 +1,4 @@
-update=Sun 02 Oct 2016 01:05:37 PM EDT
+update=Sat 14 Jan 2017 02:14:15 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=lib
@@ -76,13 +86,3 @@ LibName44=lib/nuf2221
 LibName45=lib/bq24075
 LibName46=lib/max16054
 LibName47=lib/micro_b_usb
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
