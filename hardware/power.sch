@@ -51,7 +51,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -291,7 +291,7 @@ Text HLabel 2000 4850 0    60   Output ~ 0
 PM_ISET
 Text HLabel 6250 4750 2    60   Input ~ 0
 PM_EN2
-Text HLabel 5050 4850 2    60   Input ~ 0
+Text HLabel 6250 4850 2    60   Input ~ 0
 PM_EN1
 Text HLabel 5050 5050 2    60   Output ~ 0
 PM_!GOOD
@@ -594,7 +594,7 @@ $EndComp
 Wire Wire Line
 	6050 4650 6050 4750
 Wire Wire Line
-	5050 4850 4950 4850
+	4950 4850 6250 4850
 Wire Wire Line
 	5250 5350 4950 5350
 NoConn ~ 4950 4750
@@ -627,4 +627,31 @@ Wire Wire Line
 	5400 4550 5400 4450
 Text GLabel 3650 6850 0    60   Input ~ 0
 VBAT
+$Comp
+L R_Small R?
+U 1 1 5897F73B
+P 6050 5050
+F 0 "R?" H 6100 5150 50  0000 L CNN
+F 1 "10k" H 6100 4950 50  0000 L CNN
+F 2 "" H -100 100 50  0001 C CNN
+F 3 "" H -100 100 50  0001 C CNN
+	1    6050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4950 6050 4850
+Connection ~ 6050 4850
+$Comp
+L GND #PWR?
+U 1 1 5897F92D
+P 6050 5300
+F 0 "#PWR?" H 6100 5350 50  0001 C CNN
+F 1 "GND" H 6055 5127 50  0000 C CNN
+F 2 "" H -50 0   50  0001 C CNN
+F 3 "" H -50 0   50  0001 C CNN
+	1    6050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5300 6050 5150
 $EndSCHEMATC
