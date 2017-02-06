@@ -9,13 +9,13 @@ TODO
 
 
 v0.1:
- X Battery compartment is not quite wide enough.
- IGNORE Battery compartment battery spring slot is:
+ * FIXED: Battery compartment is not quite wide enough.
+ * IGNORE: Battery compartment battery spring slot is:
    - 0.5mm too thin, should be 1.6mm
    - 0.5mm too slim, should me 17.75mm
- X Spring slots lack copper on the back side
- X Missing +/- symbols on the battery silkscreen
- ? Rotate battery footprint 180 degrees
+ * FIXED: Spring slots lack copper on the back side
+ * FIXED: +/- symbols on the battery silkscreen
+ ? IGNORE: battery footprint 180 degrees
  
  
  * U5/bq24075 EN1 is not pulled down
@@ -28,10 +28,10 @@ v0.1:
    - SiP32408? 3.5A probably ok since no usb port delivers that, and probable no battery either
      - http://www.vishay.com/docs/63717/sip32408.pdf
 
- X Mic port hole is not drilled (hole too small?)
- * Mic pads should probably be longer
+ * FIXED: Mic port hole is not drilled (hole too small?)
+ * FIXED: Mic pads should probably be longer
 
- * Move button footprint slightly closer to edge
+ * FIXED: Move button footprint slightly closer to edge
 
  * BNO055 pads should probable be longer
 
