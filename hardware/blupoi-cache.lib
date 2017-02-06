@@ -50,11 +50,11 @@ X TPAD 17 -800 -400 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Battery
+# Battery-RESCUE-blupoi
 #
-DEF Battery BT 0 0 N Y 1 F N
+DEF Battery-RESCUE-blupoi BT 0 0 N Y 1 F N
 F0 "BT" 100 50 50 H V L CNN
-F1 "Battery" 100 -50 50 H V L CNN
+F1 "Battery-RESCUE-blupoi" 100 -50 50 H V L CNN
 F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 DRAW
@@ -71,16 +71,16 @@ ENDDEF
 #
 # CONN_01X03
 #
-DEF CONN_01X03 P 0 40 Y N 1 F N
-F0 "P" 0 200 50 H V C CNN
+DEF CONN_01X03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
 F1 "CONN_01X03" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X03
- Pin_Header_Angled_1X03
- Socket_Strip_Straight_1X03
- Socket_Strip_Angled_1X03
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -95 10 -105 0 1 0 N
@@ -95,16 +95,16 @@ ENDDEF
 #
 # CONN_02X05
 #
-DEF CONN_02X05 P 0 1 Y N 1 F N
-F0 "P" 0 300 50 H V C CNN
+DEF CONN_02X05 J 0 1 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
 F1 "CONN_02X05" 0 -300 50 H V C CNN
-F2 "" 0 -1200 50 H V C CNN
-F3 "" 0 -1200 50 H V C CNN
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X05
- Pin_Header_Angled_2X05
- Socket_Strip_Straight_2X05
- Socket_Strip_Angled_2X05
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
 $ENDFPLIST
 DRAW
 S -100 -195 -50 -205 0 1 0 N
@@ -136,20 +136,16 @@ ENDDEF
 DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 75 D 40 40 1 1 P
-X ~ 2 0 -100 80 U 40 40 1 1 P
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -179,8 +175,8 @@ ENDDEF
 DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
@@ -317,16 +313,15 @@ ENDDEF
 DEF R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor_*
  R_*
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 40 40 1 1 P
-X ~ 2 0 -100 30 U 40 40 1 1 P
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
