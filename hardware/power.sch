@@ -47,7 +47,7 @@ LIBS:bq24075
 LIBS:max16054
 LIBS:micro_b_usb
 LIBS:blupoi-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -67,7 +67,7 @@ U 1 1 57952421
 P 4950 1650
 F 0 "L2" H 4950 1865 50  0000 C CNN
 F 1 "1.5uH" H 4950 1774 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 4950 1650 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206" H 4950 1650 50  0001 C CNN
 F 3 "" H 4950 1650 50  0000 C CNN
 	1    4950 1650
 	1    0    0    -1  
@@ -186,9 +186,11 @@ F 3 "" H 3650 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT1
+L Battery-RESCUE-blupoi BT1
 U 1 1 579AD18C
 P 1850 2150
+AR Path="/579AD18C" Ref="BT1"  Part="1" 
+AR Path="/57B9A02C/579AD18C" Ref="BT1"  Part="1" 
 F 0 "BT1" V 1595 2150 50  0000 C CNN
 F 1 "Battery" V 1686 2150 50  0000 C CNN
 F 2 "16650_holder:16650_in_pcb_socket" V 1850 2190 50  0001 C CNN
