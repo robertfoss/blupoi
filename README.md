@@ -33,7 +33,7 @@ v0.1:
 
  * FIXED: Move button footprint slightly closer to edge
 
- * BNO055 pads should probable be longer
+ * FIXED: BNO055 pads should probable be longer
 
  * FIXED: Make logos bigger to make details visible
 
