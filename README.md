@@ -18,8 +18,8 @@ v0.1:
  ? IGNORE: battery footprint 180 degrees
  
  
- * U5/bq24075 EN1 is not pulled down
- * U5/bq24075 sysoff turns charging off. Which is should never dd
+ * FIXED: U5/bq24075 EN1 is not pulled down
+ * FIXED: U5/bq24075 sysoff turns charging off. Which is should never dd
    - Add separate add some kind of switch between u5 out and vin, controlled by button logic
    - Pull sysoff down
  * Add Load switch like Sip32431 - http://www.vishay.com/docs/66597/sip32431.pdf
@@ -41,5 +41,5 @@ v0.1:
 
  * Vin not connected on 3.3V regulator
 
- * Add silkscreen saying:
+ * FIXED: Add silkscreen saying:
    look at you, hacker, a pathetic creature of meat and bone. how can you compare yourself to a perfect immortal machine.
