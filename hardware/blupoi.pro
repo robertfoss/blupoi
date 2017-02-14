@@ -1,4 +1,4 @@
-update=Sun 05 Feb 2017 07:04:57 PM EST
+update=Sun 05 Feb 2017 08:36:02 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -86,3 +86,4 @@ LibName44=lib/nuf2221
 LibName45=lib/bq24075
 LibName46=lib/max16054
 LibName47=lib/micro_b_usb
+LibName48=lib/sip32408
