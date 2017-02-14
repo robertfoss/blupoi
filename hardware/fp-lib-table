@@ -10,4 +10,5 @@
   (lib (name kss241glfs)(type KiCad)(uri "$(KIPRJMOD)/lib/kss241glfs.pretty")(options "")(descr ""))
   (lib (name memcpy_logo)(type KiCad)(uri "$(KIPRJMOD)/lib/memcpy_logo.pretty")(options "")(descr ""))
   (lib (name open_source_hardware)(type KiCad)(uri "$(KIPRJMOD)/lib/open_source_hardware.pretty")(options "")(descr ""))
+  (lib (name sip32408)(type KiCad)(uri "$(KIPRJMOD)/lib/sip32408.pretty")(options "")(descr ""))
 )
