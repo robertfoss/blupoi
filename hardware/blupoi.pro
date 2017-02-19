@@ -1,4 +1,4 @@
-update=Mon 13 Feb 2017 07:52:21 PM EST
+update=Sun 19 Feb 2017 12:29:06 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -87,3 +87,4 @@ LibName45=lib/bq24075
 LibName46=lib/max16054
 LibName47=lib/micro_b_usb
 LibName48=lib/sip32408
+LibName49=lib/switches
