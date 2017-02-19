@@ -647,9 +647,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 6400 5150 6400
 Text GLabel 5650 4050 2    60   Input ~ 0
-VCHG
+VREG
 Text GLabel 4500 6400 0    60   Input ~ 0
-VCHG
+VREG
 $Comp
 L Battery_Cell BT1
 U 1 1 58A28802
