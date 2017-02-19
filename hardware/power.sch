@@ -641,7 +641,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 6550 5250 6550
 Wire Wire Line
-	5250 6550 5250 6700
+	5250 6550 5250 6800
 Wire Wire Line
 	5250 6700 5150 6700
 Wire Wire Line
@@ -679,4 +679,16 @@ Wire Wire Line
 	1900 6750 1800 6750
 Wire Wire Line
 	1800 6750 1800 6850
+$Comp
+L GND #PWR?
+U 1 1 58AA4391
+P 5250 6800
+F 0 "#PWR?" H 5300 6850 50  0001 C CNN
+F 1 "GND" H 5255 6627 50  0000 C CNN
+F 2 "" H -250 0   50  0001 C CNN
+F 3 "" H -250 0   50  0001 C CNN
+	1    5250 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 6700
 $EndSCHEMATC
