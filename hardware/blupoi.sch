@@ -412,9 +412,9 @@ Text GLabel 6800 2100 2    60   Input ~ 0
 MIC_I2S_WS
 Text GLabel 6800 2300 2    60   Input ~ 0
 MIC_I2S_SD
-Text GLabel 6800 3700 2    60   Input ~ 0
-ACC_I2C_SCL
 Text GLabel 6800 3800 2    60   Input ~ 0
+ACC_I2C_SCL
+Text GLabel 6800 3700 2    60   Input ~ 0
 ACC_I2C_SDA
 Text GLabel 10350 1400 2    60   Input ~ 0
 VUSB
@@ -529,13 +529,13 @@ Text GLabel 6000 6500 2    60   Input ~ 0
 RESET
 Text GLabel 6800 2600 2    60   Input ~ 0
 PM_ISET
-Text GLabel 6800 2700 2    60   Input ~ 0
-PM_EN1
-Text GLabel 6800 2800 2    60   Input ~ 0
-PM_EN2
 Text GLabel 6800 2900 2    60   Input ~ 0
-PM_!GOOD
+PM_EN1
 Text GLabel 6800 3000 2    60   Input ~ 0
+PM_EN2
+Text GLabel 6800 2800 2    60   Input ~ 0
+PM_!GOOD
+Text GLabel 6800 2700 2    60   Input ~ 0
 PM_!CHG
 Text GLabel 6800 3100 2    60   Input ~ 0
 PM_SWITCH
