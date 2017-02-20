@@ -398,23 +398,23 @@ Text GLabel 1500 2300 2    60   Input ~ 0
 ACC_I2C_SCL
 Text GLabel 1500 2400 2    60   Input ~ 0
 ACC_I2C_SDA
-Text GLabel 6800 4200 2    60   Input ~ 0
+Text GLabel 6800 2000 2    60   Input ~ 0
 APA102_1_MOSI
-Text GLabel 6800 4300 2    60   Input ~ 0
+Text GLabel 6800 1900 2    60   Input ~ 0
 APA102_1_SCK
-Text GLabel 6800 4100 2    60   Input ~ 0
+Text GLabel 6800 1700 2    60   Input ~ 0
 APA102_0_SCK
-Text GLabel 6800 4000 2    60   Input ~ 0
+Text GLabel 6800 1800 2    60   Input ~ 0
 APA102_0_MOSI
-Text GLabel 6800 3700 2    60   Input ~ 0
-MIC_I2S_SCK
-Text GLabel 6800 3800 2    60   Input ~ 0
-MIC_I2S_WS
-Text GLabel 6800 3500 2    60   Input ~ 0
-MIC_I2S_SD
-Text GLabel 6800 2100 2    60   Input ~ 0
-ACC_I2C_SCL
 Text GLabel 6800 2200 2    60   Input ~ 0
+MIC_I2S_SCK
+Text GLabel 6800 2100 2    60   Input ~ 0
+MIC_I2S_WS
+Text GLabel 6800 2300 2    60   Input ~ 0
+MIC_I2S_SD
+Text GLabel 6800 3700 2    60   Input ~ 0
+ACC_I2C_SCL
+Text GLabel 6800 3800 2    60   Input ~ 0
 ACC_I2C_SDA
 Text GLabel 10350 1400 2    60   Input ~ 0
 VUSB
@@ -680,13 +680,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 3700 6700 3700
 Wire Wire Line
-	6700 4000 6800 4000
+	6700 1700 6800 1700
 Wire Wire Line
-	6800 4100 6700 4100
+	6800 1800 6700 1800
 Wire Wire Line
-	6700 4200 6800 4200
+	6700 1900 6800 1900
 Wire Wire Line
-	6800 4300 6700 4300
+	6800 2000 6700 2000
 Wire Wire Line
 	1500 3500 1400 3500
 Wire Wire Line
@@ -835,4 +835,6 @@ Wire Wire Line
 	8200 2400 8200 2500
 Wire Wire Line
 	8200 2500 8100 2500
+Wire Wire Line
+	6800 2300 6700 2300
 $EndSCHEMATC
