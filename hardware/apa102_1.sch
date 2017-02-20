@@ -53,7 +53,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -402,9 +402,9 @@ F 3 "DOCUMENTATION" H 9000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2000 1100 0    60   Input ~ 0
-SPI0_MOSI
+SPI1_MOSI
 Text HLabel 2000 1200 0    60   Input ~ 0
-SPI0_SCK
+SPI1_SCK
 $Comp
 L GND #PWR015
 U 1 1 5897FFD0
