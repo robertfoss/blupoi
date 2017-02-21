@@ -3,7 +3,7 @@
   (general
     (links 517)
     (no_connects 0)
-    (area -60.860001 91.874499 172.3025 123.053886)
+    (area -60.860001 93.069999 168.980001 122.650001)
     (thickness 1.6)
     (drawings 15)
     (tracks 2287)
@@ -653,6 +653,11 @@
       (net 2 GND) (solder_mask_margin 0.2))
     (pad 1 smd rect (at -2.25 -1.5625 270) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask)
       (solder_mask_margin 0.2))
+    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/QFN-16-1EP_4x4mm_Pitch0.65mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1.2 0.8 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 580A99B4) (tstamp 579E3F3D)
