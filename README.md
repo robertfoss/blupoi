@@ -11,7 +11,7 @@ Changes since v0.2:
  * FIXED: Replaced USB connector oval holes with round ones for improved fabricability
  * FIXED: Reflowed filled zones since KiCad somehow did it randomly wrong in v0.2
  * FIXED: R1 Move via further away from pad
- * Move USB connector and power button to the side
+ * FIXED: Move USB connector and power button to the side
 
 
 
