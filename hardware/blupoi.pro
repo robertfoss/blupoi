@@ -1,4 +1,4 @@
-update=Sun 19 Feb 2017 12:29:06 PM EST
+update=Tue 21 Mar 2017 08:34:08 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=lib
@@ -88,3 +78,13 @@ LibName46=lib/max16054
 LibName47=lib/micro_b_usb
 LibName48=lib/sip32408
 LibName49=lib/switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

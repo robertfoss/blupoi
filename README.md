@@ -7,8 +7,15 @@ blupoi
 TODO
 ----
 
+Changes since v0.2:
+ * FIXED: Replaced USB connector oval holes with round ones for improved fabricability
+ * FIXED: Reflowed filled zones since KiCad somehow did it randomly wrong in v0.2
+ * FIXED: R1 Move via further away from pad
+ * Move USB connector and power button to the side
 
-v0.1:
+
+
+Changes since v0.1:
  * FIXED: Battery compartment is not quite wide enough.
  * IGNORE: Battery compartment battery spring slot is:
    - 0.5mm too thin, should be 1.6mm
