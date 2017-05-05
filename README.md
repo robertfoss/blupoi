@@ -7,6 +7,13 @@ blupoi
 TODO
 ----
 
+Changes since v0.3:
+ - 1uF 0402 caps not ordered
+ * C27 pad has a large via in a pad
+ * FIXED: MAX16054 Connect CLEAR to GND if unused.
+ 
+
+
 Changes since v0.2:
  * FIXED: Replaced USB connector oval holes with round ones for improved fabricability
  * FIXED: Reflowed filled zones since KiCad somehow did it randomly wrong in v0.2
