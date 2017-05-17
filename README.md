@@ -11,6 +11,13 @@ Changes since v0.3:
  - 1uF 0402 caps not ordered
  * C27 pad has a large via in a pad
  * FIXED: MAX16054 Connect CLEAR to GND if unused.
+ * FIXED: SIP32408 Footprint pinout was mirrored
+ ? Change battery orientation, since spring should be on the top side but also on the gnd side of BAT
+  - Maybe dont since VBAT would end up coming out in a place where it is not useful
+ * X1 label covered by hole
+ * X1 footprint larger than bom part?
+ * C1/C2/C3 footprint is 0603 but bom is 0402
+ * SWO header, change part and footprint to have only be connectable the 'right' way
  
 
 
