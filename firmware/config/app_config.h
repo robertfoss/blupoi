@@ -1,0 +1,11 @@
+#ifndef APP_CONFIG_H
+#define APP_CONFIG_H
+
+#define SPI0_ENABLED 1
+#define SPI1_ENABLED 1
+
+#define APP_UART_ENABLED 1
+#define RETARGET_ENABLED 1
+
+#endif //APP_CONFIG_H
+

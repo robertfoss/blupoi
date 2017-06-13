@@ -1,0 +1,226 @@
+include $(ROOT)/Makefile.config
+
+TEMPLATE_PATH = $(NRF5_SDK)/components/toolchain/gcc
+ifeq ($(OS),Windows_NT)
+include $(TEMPLATE_PATH)/Makefile.windows
+else
+include $(TEMPLATE_PATH)/Makefile.posix
+endif
+
+include $(ROOT)/Makefile.config
+
+
+REAL_PWD=$(shell echo $$PWD)
+
+NRFJPROG         ?= binaries/nrfjprog
+OPENOCD          ?= openocd
+OPENOCD_IFACE    ?= interface/stlink-v2.cfg
+OPENOCD_TARGET   ?= target/$(NRF_TARGET).cfg
+SOFTDEVICE       := $(wildcard softdevice/*_softdevice.hex)
+
+
+ifeq ("$(PROJECT_NAME)","")
+PROJECT_NAME := $(lastword $(subst /, , $(REAL_PWD)))
+endif
+
+MAKEFILE_NAME := $(MAKEFILE_LIST)
+MAKEFILE_DIR := $(dir $(MAKEFILE_NAME) )
+
+MK := mkdir
+RM := rm -rf
+
+ifeq ("$(VERBOSE)","1")
+NO_ECHO :=
+else
+NO_ECHO := @
+endif
+
+# Toolchain commands
+GDB             := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-gdb'
+CC              := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-gcc'
+AS              := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-as'
+AR              := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-ar' -r
+LD              := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-ld'
+NM              := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-nm'
+OBJDUMP         := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-objdump'
+OBJCOPY         := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-objcopy'
+SIZE            := '$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-size'
+SED             := env sed
+
+#function for removing duplicates in a list
+remduplicates = $(strip $(if $1,$(firstword $1) $(call remduplicates,$(filter-out $(firstword $1),$1))))
+
+#source common to all targets
+C_SOURCE_FILES += \
+$(NRF5_SDK)/components/toolchain/system_$(NRF_TARGET).c \
+
+
+#assembly files common to all targets
+ASM_SOURCE_FILES  = $(NRF5_SDK)/components/toolchain/gcc/gcc_startup_$(NRF_TARGET).S
+
+
+#includes common to all targets
+INC_PATHS += -I$(NRF5_SDK)/components/toolchain/gcc
+INC_PATHS += -I$(NRF5_SDK)/components/toolchain
+INC_PATHS += -I$(NRF5_SDK)/components/toolchain/CMSIS/Include/
+INC_PATHS += -I$(NRF5_SDK)/components/toolchain/cmsis/include
+INC_PATHS += -I.
+INC_PATHS += -I$(ROOT)/config
+INC_PATHS += -I$(NRF5_SDK)/components/device
+INC_PATHS_NODUP = $(call remduplicates, $(INC_PATHS))
+
+
+OBJECT_DIRECTORY = build
+LISTING_DIRECTORY = $(OBJECT_DIRECTORY)
+OUTPUT_BINARY_DIRECTORY = $(OBJECT_DIRECTORY)
+OUTPUT_FILENAME := firmware-$(NRF_TARGET)
+
+# Sorting removes duplicates
+BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LISTING_DIRECTORY) )
+
+# Set target specific CFLAGS, LDFLAGS and ASMFLAGS
+include $(ROOT)/Makefile.$(NRF_TARGET)
+
+#default target - first one defined
+default: firmware
+
+#building all targets
+all:
+	$(NO_ECHO)$(MAKE) -f $(MAKEFILE_NAME) -C $(MAKEFILE_DIR) -e firmware
+
+#target for printing all targets
+help:
+	@echo following targets are available:
+	@echo 	firmware
+
+
+# Allow duplicate source files for easier dependency management
+C_SOURCE_FILE_NAMES_DUP = $(notdir $(C_SOURCE_FILES))
+C_SOURCE_FILE_NAMES = $(call remduplicates, $(C_SOURCE_FILE_NAMES_DUP))
+C_PATHS = $(call remduplicates, $(dir $(C_SOURCE_FILES) ) )
+C_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)/, $(C_SOURCE_FILE_NAMES:.c=.o) )
+
+ASM_SOURCE_FILE_NAMES = $(notdir $(ASM_SOURCE_FILES))
+ASM_PATHS = $(call remduplicates, $(dir $(ASM_SOURCE_FILES) ))
+ASM_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)/, $(ASM_SOURCE_FILE_NAMES:.S=.o) )
+
+vpath %.c $(C_PATHS)
+vpath %.S $(ASM_PATHS)
+
+OBJECTS = $(C_OBJECTS) $(ASM_OBJECTS)
+
+firmware: $(LINKER_SCRIPT)
+firmware: $(PROJECT_NAME).includes $(PROJECT_NAME).files
+firmware: $(BUILD_DIRECTORIES) $(OBJECTS)
+	@echo Linking target: $(OUTPUT_FILENAME).out
+	$(NO_ECHO)$(CC) $(LDFLAGS) $(OBJECTS) $(LIBS) -o $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out
+	$(NO_ECHO)$(MAKE) -f $(MAKEFILE_NAME) -C $(MAKEFILE_DIR) -e finalize
+
+
+## Create build directories
+$(BUILD_DIRECTORIES):
+	echo $(MAKEFILE_NAME)
+	$(MK) $@
+
+# Create objects from C SRC files
+$(OBJECT_DIRECTORY)/%.o: %.c
+	@echo Compiling file: $(notdir $<)
+	$(NO_ECHO)$(CC) $(CFLAGS) $(INC_PATHS) -c -o $@ $<
+
+
+# Depend file, editing a header file triggers rebuild on affected sources
+.depend: $(C_SOURCE_FILE_NAMES)
+	@echo Building depend file
+	@rm -f ./.depend
+	$(NO_ECHO)$(CC) $(CFLAGS) $(INC_PATHS) -MM $^ > ./.depend;
+	@$(SED) -i -r 's/^(\w)/$(OBJECT_DIRECTORY)\/\1/g' .depend
+
+	@# Generate QtCreator files
+	@# Generate .includes file
+	@rm -f $(PROJECT_NAME).includes
+	@echo $(INC_PATHS_NODUP) | $(SED) -r 's/ /\n/g' | $(SED) 's/^-I//' > $(PROJECT_NAME).includes
+
+	@# Generate .files file
+	@rm -f $(PROJECT_NAME).files
+	@tr '\n' ' ' < .depend | sed 's/\\//g' | sed 's/[^ ]*://g' | sed 's/\s\+/\n/g' | sort | uniq > $(PROJECT_NAME).files
+
+depend: .depend
+-include .depend
+
+
+# Assemble files
+$(OBJECT_DIRECTORY)/%.o: %.S
+	@echo Compiling file: $(notdir $<)
+	$(NO_ECHO)$(CC) $(ASMFLAGS) $(INC_PATHS) -c -o $@ $<
+
+
+# Link
+$(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out: check_sdk_path $(BUILD_DIRECTORIES) $(OBJECTS)
+	@echo Linking target: $(OUTPUT_FILENAME).out
+	$(NO_ECHO)$(CC) $(LDFLAGS) $(OBJECTS) $(LIBS) -o $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out
+
+
+## Create binary .bin file from the .out file
+$(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).bin: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out
+	@echo Preparing: $(OUTPUT_FILENAME).bin
+	$(NO_ECHO)$(OBJCOPY) -O binary $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).bin
+
+## Create binary .hex file from the .out file
+$(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out
+	@echo Preparing: $(OUTPUT_FILENAME).hex
+	$(NO_ECHO)$(OBJCOPY) -O ihex $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+
+finalize: genbin genhex echosize
+
+genbin:
+	@echo Preparing: $(OUTPUT_FILENAME).bin
+	$(NO_ECHO)$(OBJCOPY) -O binary $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).bin
+
+## Create binary .hex file from the .out file
+genhex:
+	@echo Preparing: $(OUTPUT_FILENAME).hex
+	$(NO_ECHO)$(OBJCOPY) -O ihex $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+
+echosize:
+	-@echo ''
+	$(NO_ECHO)$(SIZE) $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).out
+	-@echo ''
+
+clean:
+	$(RM) $(BUILD_DIRECTORIES)
+	$(RM) .depend
+
+cleanobj:
+	$(RM) $(BUILD_DIRECTORIES)/*.o
+
+flash-softdevice:	
+	@echo Flashing: Softdevice: $(SOFTDEVICE)
+	$(NRFJPROG) --family $(NRF_TARGET) --eraseall
+	$(NRFJPROG) --family $(NRF_TARGET) --reset
+	$(NRFJPROG) --family $(NRF_TARGET) --program $(SOFTDEVICE)
+
+flash: firmware
+	@echo Flashing: Firmware: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	$(NRFJPROG) --family $(NRF_TARGET) --erasepage 0x0-0x80000
+	$(NRFJPROG) --family $(NRF_TARGET) --program $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	$(NRFJPROG) --family $(NRF_TARGET) --reset
+
+flash-bmp: firmware
+	$(GDB) -q -ex 'target extended-remote /dev/ttyBmpGdb' -ex 'monitor swdp_scan' -ex 'attach 1' -ex 'load' -ex 'detach' -ex 'quit' $(SOFTDEVICE)
+	$(GDB) -q -ex 'target extended-remote /dev/ttyBmpGdb' -ex 'monitor swdp_scan' -ex 'attach 1' -ex 'load' -ex 'detach' -ex 'quit' $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+
+flash-openocd: firmware
+	@echo Flashing: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	$(OPENOCD) -f $(OPENOCD_IFACE) -f $(OPENOCD_TARGET) -c "init" -c "reset halt" -c "program $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex 0 verify" -c "reset run" -c "exit"
+
+erase-openocd: firmware
+	@echo Erasing...
+	$(OPENOCD) -f $(OPENOCD_IFACE) -f $(OPENOCD_TARGET) -c "init; reset halt; $(NRF_TARGET) mass_erase; shutdown"
+
+
+## Flash softdevice (TODO)
+
+
+
+
+
